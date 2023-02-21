@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 
 id = 3030965
 url = f'https://bina.az/items/{id}'
@@ -20,7 +21,10 @@ price = {'price' : int(soup.find('span', {"class":"price-val"}).text.replace(" "
 info.update(price)
 
 loclist = soup.find("ul",{"class":"locations"}).findAll("a")
-locations =[i.text for i in loclist]
+locations = ""
+for i in loclist:locations+=i.text+","
 info.update({"locations" : locations})
 
+info_df = pd.DataFrame([info])
 
+info_df.to_csv('data.csv', sep=' ', index=False)
