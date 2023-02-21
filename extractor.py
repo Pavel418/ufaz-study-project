@@ -23,4 +23,4 @@ loclist = soup.find("ul",{"class":"locations"}).findAll("a")
 locations =[i.text for i in loclist]
 info.update({"locations" : locations})
 
-print(info)
+
