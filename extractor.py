@@ -1,9 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import numpy as np
 
 
-keys,vals,prices,priceCurs, latitudes, longitudes = list(),list(),list(),list(), list(),list()
+keys,vals,area,cixaris, ipoteka,rooms,repairs,prices,priceCurs, latitudes, longitudes = list(),list(),list(),list(), list(),list(),list(),list(),list(),list(),list()
 locations = ""
 
 def pageDataExtract(id):
@@ -21,6 +22,7 @@ def pageDataExtract(id):
     for i in trs:
         keys.append((i.findAll("td"))[0].text)
         vals.append((i.findAll("td"))[1].text)
+        print((i.findAll("td"))[0].text)
     prices.append(int(soup.find('span', {"class":"price-val"}).text.replace(" ", "")))
     priceCurs.append(soup.find('span', {"class":"price-cur"}).text)
     try:
@@ -33,9 +35,8 @@ def pageDataExtract(id):
     loclist = soup.find("ul",{"class":"locations"}).findAll("a")
 
     for i in loclist:locations+=i.text+","
-for i in range(3279157, 3279157 + 10):
-    print(i)
-pageDataExtract(3279159)
+for i in range(3279157, 3279157 + 1000, 100):
+    pageDataExtract(i)
 #pageDataExtract(3142195)
 info = dict(zip(keys,vals))
 info.update({"price":prices,"price-cur":priceCurs})
