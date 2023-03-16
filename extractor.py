@@ -6,7 +6,7 @@ import numpy as np
 import multiprocessing as mp
 
 def pageDataExtract(id, session):
-    try:
+    
         url = f'https://bina.az/items/{id}'
         r = session.get(url)
         if "Tapılmadı" in r.text:
@@ -34,6 +34,8 @@ def pageDataExtract(id, session):
         city = soup.find('div', {"class":"search-row__cell search-row__cell--city"}).find('option', {"selected": "selected"}).text
         price = int(soup.find('span', {"class":"price-val"}).text.replace(" ", ""))
         priceCur = soup.find('span', {"class":"price-cur"}).text
+        date = soup.find('div', {"id": "js-item-show"}).find('div', {"class":"item_show_content"}).find('div',{"class":"item_info"}).find_all('p')[2].text.replace("Yeniləndi: ", "")
+
         try:
             latitude = soup.find('div', id='agency_map').get('data-lat')
             longitude = soup.find('div', id='agency_map').get('data-lng')
@@ -47,23 +49,21 @@ def pageDataExtract(id, session):
         
         info.update({"price":price,"price-cur":priceCur,
                     "locations" : locations,"latitude": latitude,
-                    "city":city, 'longtitude': longitude, "id": id})
+                    "city":city, 'longtitude': longitude, "id": id, "date": date})
         return info
-    except Exception as e:
-        return
 
 if __name__ == "__main__":
     session = requests.Session()
     rows= []
     begin = datetime.datetime.now()
-    with mp.Pool() as pool:
-        results = pool.starmap(pageDataExtract, [(i, session) for i in range(2000000, 3500000, 868)])
-        for row in results:
-            if row is not None:
-                rows.append(row)
-    #rows.append(pageDataExtract(3142195, session))
+    #with mp.Pool() as pool:
+     #   results = pool.starmap(pageDataExtract, [(i, session) for i in range(2000000, 3500000, 868)])
+      #  for row in results:
+       #     if row is not None:
+        #        rows.append(row)
+    rows.append(pageDataExtract(2677908, session))
     end = datetime.datetime.now()
     print((end - begin).seconds)
     info_df = pd.DataFrame(rows)
 
-    info_df.to_csv('data.csv')
+    info_df.to_csv('test.csv')
