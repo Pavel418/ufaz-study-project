@@ -4,6 +4,11 @@ import datetime
 import pandas as pd
 import numpy as np
 import multiprocessing as mp
+from geopy.distance import distance, Point
+
+
+# Dataset of the coastline of the Caspian Sea
+coastline = pd.read_csv('https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/master/geo-boundaries-world-110m.csv')
 
 def pageDataExtract(id, session):
     
@@ -32,10 +37,16 @@ def pageDataExtract(id, session):
         for i in fields:
             info.update({key: np.NaN})
         city = soup.find('div', {"class":"search-row__cell search-row__cell--city"}).find('option', {"selected": "selected"}).text
+        coordLng = float(soup.find('div',{"class":"data-lng"}).text)
+        coordLat = float(soup.find('div',{"class":"data-lat"}).text)
         price = int(soup.find('span', {"class":"price-val"}).text.replace(" ", ""))
         priceCur = soup.find('span', {"class":"price-cur"}).text
         date = soup.find('div', {"id": "js-item-show"}).find('div', {"class":"item_show_content"}).find('div',{"class":"item_info"}).find_all('p')[2].text.replace("Yeniləndi: ", "")
+        distances = [distance(Point(coordLat, coordLng), Point(row['latitude'], row['longitude'])).km for _, row in coastline.iterrows()]
+        closest_point_idx = distances.index(min(distances))
+        closest_point_distance = min(distances)
 
+        print("Ayyeyeyey:  "+closest_point_distance)
         try:
             latitude = soup.find('div', id='agency_map').get('data-lat')
             longitude = soup.find('div', id='agency_map').get('data-lng')
@@ -66,4 +77,4 @@ if __name__ == "__main__":
     print((end - begin).seconds)
     info_df = pd.DataFrame(rows)
 
-    info_df.to_csv('test.csv')
+    #info_df.to_csv('test.csv')
