@@ -4,12 +4,20 @@ import datetime
 import pandas as pd
 import numpy as np
 import multiprocessing as mp
+import cloudscraper
 
-def pageDataExtract(id, session):
-    
+import time
+
+def pageDataExtract(id, session, wait_time):
         url = f'https://bina.az/items/{id}'
-        r = session.get(url)
+        try:
+            r = session.get(url)
+        except Exception as e:
+            print("Connection reset. waiting ", wait_time, " seconds")
+            time.sleep(5)
+            return pageDataExtract(id, session, wait_time + 5)
         if "Tapılmadı" in r.text:
+            print("empty ", id)
             return
 
         locations = ""
@@ -17,9 +25,19 @@ def pageDataExtract(id, session):
         fields = {"Kateqoriya", "Mərtəbə", "Sahə", "Otaq sayı","Çıxarış","Təmir", "İpoteka"}
 
         soup = BeautifulSoup(r.text, 'lxml')
-        if "Alış" != soup.find('div', {"class":"search-row__cell search-row__cell--leased"}).find('option', {"selected": "selected"}).text:
+        element = soup.find('div', {"class":"search-row__cell search-row__cell--leased"})
+        if element is None:
+            print("`no search ", id)
+            #print(r.text)
             return
-        trs = soup.find("table", {"class": "parameters"}).find_all('tr')
+        element = element.find('option', {"selected": "selected"})
+        if element is None:
+            return
+        if "Alış" != element.text:
+            return
+        
+        element = soup.find("table", {"class": "parameters"})
+        trs = element.find_all('tr')
         for i in trs:
             key = (i.find_all("td"))[0].text
             if key in fields:
@@ -53,15 +71,10 @@ def pageDataExtract(id, session):
         return info
 
 if __name__ == "__main__":
-    session = requests.Session()
+    session = cloudscraper.CloudScraper(debug=True)  
     rows= []
     begin = datetime.datetime.now()
-    #with mp.Pool() as pool:
-     #   results = pool.starmap(pageDataExtract, [(i, session) for i in range(2000000, 3500000, 868)])
-      #  for row in results:
-       #     if row is not None:
-        #        rows.append(row)
-    rows.append(pageDataExtract(2677908, session))
+    pageDataExtract(2000000, session, 5)
     end = datetime.datetime.now()
     print((end - begin).seconds)
     info_df = pd.DataFrame(rows)
