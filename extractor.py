@@ -4,11 +4,28 @@ import datetime
 import pandas as pd
 import numpy as np
 import multiprocessing as mp
-import undetected_chromedriver as uc 
+import undetected_chromedriver as uc
+import os
 
 import time
 
+def quit_driver_and_reap_children(driver):
+    driver.quit()
+    try:
+        pid = True
+        while pid:
+            pid = os.waitpid(-1, os.WNOHANG)
+            
+            try:
+                if pid[0] == 0:
+                    pid = False
+            except:
+                pass
+    except ChildProcessError:
+        pass
+
 def pageDataExtract(id, session, wait_time):
+    try:
         url = f'https://bina.az/items/{id}'
         try:
             text = session.get(url).text
@@ -17,25 +34,18 @@ def pageDataExtract(id, session, wait_time):
             time.sleep(5)
             return pageDataExtract(id, session, wait_time + 5)
         if "Tapılmadı" in text:
-            print("empty ", id)
-            return
+            return None
 
         if "Checking if the site connection is secure" in text:
-            print("bypassing security ", id)
             options = uc.ChromeOptions()
-            options.add_argument('--ignore-certificate-errors')
-            options.add_argument('--allow-running-insecure-content')
+            options.add_argument('--disable-gpu')
             options.add_argument('--headless')
 
-            print("launch ", id)
-            driver = uc.Chrome(use_subprocess=True,options=options)
-            print("get ", id)
+            driver = uc.Chrome(use_subprocess=True, version_main=111, options=options, driver_executable_path="/home/p.kuznetsov/chromedriver", browser_executable_path="/home/p.kuznetsov/chrome/opt/google/chrome/google-chrome")
             driver.get(url)
             time.sleep(5)
             text = driver.page_source
-            print("security bypassed ", id)
-            driver.quit()
-
+            quit_driver_and_reap_children(driver)
         locations = ""
         info = {}
         fields = {"Kateqoriya", "Mərtəbə", "Sahə", "Otaq sayı","Çıxarış","Təmir", "İpoteka"}
@@ -43,13 +53,12 @@ def pageDataExtract(id, session, wait_time):
         soup = BeautifulSoup(text, 'lxml')
         element = soup.find('div', {"class":"search-row__cell search-row__cell--leased"})
         if element is None:
-            print("`no search ", id)
-            return
+            return None
         element = element.find('option', {"selected": "selected"})
         if element is None:
-            return
+            return None
         if "Alış" != element.text:
-            return
+            return None
         
         element = soup.find("table", {"class": "parameters"})
         trs = element.find_all('tr')
@@ -84,18 +93,19 @@ def pageDataExtract(id, session, wait_time):
                     "locations" : locations,"latitude": latitude,
                     "city":city, 'longtitude': longitude, "id": id, "date": date})
         return info
+    except Exception as e:
+        print(e, id)
+        return
 
 if __name__ == "__main__":
     session = requests.Session() 
     rows= []
     begin = datetime.datetime.now()
-    '''
     with mp.Pool() as pool:
-        results = pool.starmap(pageDataExtract, [(i, session, 5) for i in range(3000000, 3100000)])
+        results = pool.starmap(pageDataExtract, [(i, session, 5) for i in range(3100006, 3100007)])
         for row in results:
             if row is not None:
-                rows.append(row)'''
-    pageDataExtract(3000000, session, 5)
+                rows.append(row)
     end = datetime.datetime.now()
     print((end - begin).seconds)
     info_df = pd.DataFrame(rows)
