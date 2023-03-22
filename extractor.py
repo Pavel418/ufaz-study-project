@@ -6,8 +6,65 @@ import numpy as np
 import multiprocessing as mp
 import undetected_chromedriver as uc
 import os
+import random
 
 import time
+
+count = 100
+max_count = 100
+static_proxies = []
+driver_path = "C:\Program Files\Google\chromedriver.exe"
+chrome_path = "C:\Program Files\Google\Chrome\Application\chrome.exe"
+
+if(os.name == 'nt'):
+    driver_path = "C:\Program Files\Google\chromedriver.exe"
+    chrome_path = "C:\Program Files\Google\Chrome\Application\chrome.exe"
+else:
+    driver_path = "/home/p.kuznetsov/chromedriver"
+    chrome_path = "/home/p.kuznetsov/chrome/opt/google/chrome/google-chrome"
+
+def getChrome(options):
+    global driver_path, chrome_path
+    return uc.Chrome(use_subprocess=True, version_main=111, options=options, driver_executable_path=driver_path, browser_executable_path=chrome_path)
+
+def getProxies():
+    global count, static_proxies, max_count
+    ++count
+    if(count >= max_count):
+        options = uc.ChromeOptions()
+        options.add_argument('--disable-gpu')
+        options.add_argument('--headless')
+
+        driver = getChrome(options)
+        driver.get("https://www.sslproxies.org/")
+
+        list_proxies = []
+
+        text = driver.page_source
+        soup = BeautifulSoup(text, 'lxml')
+        proxies = soup.select('tr')
+        proxies.pop(0)
+        for p in proxies:
+            if(len(p) == 8):
+                result = p.select('td')
+                if result[-2].text == "yes":
+                    list_proxies.append(result[0].text+":"+result[1].text)
+
+        driver.close()
+        static_proxies = list_proxies
+        count = 0
+        return list_proxies
+    else:
+        return static_proxies
+
+def getDriver():
+    proxy = random.choice(getProxies())
+    options = uc.ChromeOptions()
+    options.add_argument('--disable-gpu')
+    # options.add_argument('--headless')
+    options.add_argument(f'--proxy-server={proxy}')
+
+    return getChrome(options)
 
 def quit_driver_and_reap_children(driver):
     driver.quit()
@@ -37,11 +94,7 @@ def pageDataExtract(id, session, wait_time):
             return None
 
         if "Checking if the site connection is secure" in text:
-            options = uc.ChromeOptions()
-            options.add_argument('--disable-gpu')
-            options.add_argument('--headless')
-
-            driver = uc.Chrome(use_subprocess=True, version_main=111, options=options, driver_executable_path="/home/p.kuznetsov/chromedriver", browser_executable_path="/home/p.kuznetsov/chrome/opt/google/chrome/google-chrome")
+            driver = getDriver()
             driver.get(url)
             time.sleep(5)
             text = driver.page_source
@@ -102,7 +155,7 @@ if __name__ == "__main__":
     rows= []
     begin = datetime.datetime.now()
     with mp.Pool() as pool:
-        results = pool.starmap(pageDataExtract, [(i, session, 5) for i in range(3100006, 3100007)])
+        results = pool.starmap(pageDataExtract, [(i, session, 5) for i in range(3362324, 3362325)])
         for row in results:
             if row is not None:
                 rows.append(row)
