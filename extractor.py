@@ -7,14 +7,18 @@ import multiprocessing as mp
 import undetected_chromedriver as uc
 import os
 import random
+import warnings
 
 import time
 
-count = 100
-max_count = 100
+lock = mp.Lock()
+count = mp.Value("i", 20000)
+max_count = 20000
 static_proxies = []
+
 driver_path = "C:\Program Files\Google\chromedriver.exe"
 chrome_path = "C:\Program Files\Google\Chrome\Application\chrome.exe"
+warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made")
 
 if(os.name == 'nt'):
     driver_path = "C:\Program Files\Google\chromedriver.exe"
@@ -23,45 +27,63 @@ else:
     driver_path = "/home/p.kuznetsov/chromedriver"
     chrome_path = "/home/p.kuznetsov/chrome/opt/google/chrome/google-chrome"
 
+def checkProxy(proxy):
+    session = requests.Session()
+    proxy = 'https://' + proxy
+    session.proxies = {
+        'https': proxy,
+    }
+    try:
+        result = "banned" not in session.get("https://bina.az/items/2000000", timeout=3, verify=False).text
+    except Exception as e:
+        return False
+    return result 
+
+
 def getChrome(options):
     global driver_path, chrome_path
     return uc.Chrome(use_subprocess=True, version_main=111, options=options, driver_executable_path=driver_path, browser_executable_path=chrome_path)
 
 def getProxies():
-    global count, static_proxies, max_count
-    ++count
-    if(count >= max_count):
-        options = uc.ChromeOptions()
-        options.add_argument('--disable-gpu')
-        options.add_argument('--headless')
-
-        driver = getChrome(options)
-        driver.get("https://www.sslproxies.org/")
+    global count, static_proxies, max_count, lock
+    lock.acquire()
+    count.value += 1
+    if(count.value >= max_count):
+        session = requests.Session()
+        text = session.get("https://www.sslproxies.org/", verify=False).text
 
         list_proxies = []
 
-        text = driver.page_source
         soup = BeautifulSoup(text, 'lxml')
         proxies = soup.select('tr')
         proxies.pop(0)
+        
+        begin = datetime.datetime.now()
+        print("check started")
         for p in proxies:
             if(len(p) == 8):
                 result = p.select('td')
                 if result[-2].text == "yes":
-                    list_proxies.append(result[0].text+":"+result[1].text)
-
-        driver.close()
+                    proxy = result[0].text+":"+result[1].text
+                    if checkProxy(proxy):
+                        list_proxies.append(proxy)
+        
+        end = datetime.datetime.now()
+        print("check ended")
+        print((end - begin).seconds)
         static_proxies = list_proxies
-        count = 0
+        count.value = 0
+        lock.release()
         return list_proxies
     else:
+        lock.release()
         return static_proxies
 
 def getDriver():
     proxy = random.choice(getProxies())
     options = uc.ChromeOptions()
     options.add_argument('--disable-gpu')
-    # options.add_argument('--headless')
+    options.add_argument('--headless')
     options.add_argument(f'--proxy-server={proxy}')
 
     return getChrome(options)
@@ -81,15 +103,20 @@ def quit_driver_and_reap_children(driver):
     except ChildProcessError:
         pass
 
-def pageDataExtract(id, session, wait_time):
+def pageDataExtract(id, wait_time):
     try:
+        session = requests.Session()
+        proxy = random.choice(getProxies())
+        session.proxies = {
+        'https': proxy,
+        }
         url = f'https://bina.az/items/{id}'
         try:
-            text = session.get(url).text
+            text = session.get(url, verify=False).text
         except Exception as e:
             print("Connection reset. waiting ", wait_time, " seconds")
             time.sleep(5)
-            return pageDataExtract(id, session, wait_time + 5)
+            return pageDataExtract(id, wait_time + 5)
         if "Tapılmadı" in text:
             return None
 
@@ -102,7 +129,6 @@ def pageDataExtract(id, session, wait_time):
         locations = ""
         info = {}
         fields = {"Kateqoriya", "Mərtəbə", "Sahə", "Otaq sayı","Çıxarış","Təmir", "İpoteka"}
-
         soup = BeautifulSoup(text, 'lxml')
         element = soup.find('div', {"class":"search-row__cell search-row__cell--leased"})
         if element is None:
@@ -151,11 +177,10 @@ def pageDataExtract(id, session, wait_time):
         return
 
 if __name__ == "__main__":
-    session = requests.Session() 
     rows= []
     begin = datetime.datetime.now()
     with mp.Pool() as pool:
-        results = pool.starmap(pageDataExtract, [(i, session, 5) for i in range(3362324, 3362325)])
+        results = pool.starmap(pageDataExtract, [(i, 5) for i in range(2600000, 2700000)])
         for row in results:
             if row is not None:
                 rows.append(row)
