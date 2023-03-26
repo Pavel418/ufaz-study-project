@@ -8,13 +8,19 @@ import undetected_chromedriver as uc
 import os
 import random
 import warnings
-
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+import urllib3
 import time
 
+timeout = urllib3.Timeout(connect=1.5, read=1.5)
 lock = mp.Lock()
 count = mp.Value("i", 20000)
 max_count = 20000
-static_proxies = []
+manager = mp.Manager()
+static_proxies = manager.list()
+urlList = ["https://free-proxy-list.net/", "https://www.sslproxies.org/"]
+websiteIndex = mp.Value('i', 0)
 
 driver_path = "C:\Program Files\Google\chromedriver.exe"
 chrome_path = "C:\Program Files\Google\Chrome\Application\chrome.exe"
@@ -34,53 +40,49 @@ def checkProxy(proxy):
         'https': proxy,
     }
     try:
-        result = "banned" not in session.get("https://bina.az/items/2000000", timeout=3, verify=False).text
-    except Exception as e:
+        result = "banned" not in session.get("https://bina.az/items/2000000", timeout=timeout, verify=False).text
+    except:
         return False
     return result 
-
 
 def getChrome(options):
     global driver_path, chrome_path
     return uc.Chrome(use_subprocess=True, version_main=111, options=options, driver_executable_path=driver_path, browser_executable_path=chrome_path)
 
-def getProxies():
-    global count, static_proxies, max_count, lock
-    lock.acquire()
-    count.value += 1
-    if(count.value >= max_count):
+def scanUrlForProxies(url):
         session = requests.Session()
-        text = session.get("https://www.sslproxies.org/", verify=False).text
-
-        list_proxies = []
+        text = session.get(url, verify=False).text
 
         soup = BeautifulSoup(text, 'lxml')
         proxies = soup.select('tr')
         proxies.pop(0)
         
-        begin = datetime.datetime.now()
-        print("check started")
         for p in proxies:
             if(len(p) == 8):
                 result = p.select('td')
                 if result[-2].text == "yes":
                     proxy = result[0].text+":"+result[1].text
                     if checkProxy(proxy):
-                        list_proxies.append(proxy)
-        
-        end = datetime.datetime.now()
-        print("check ended")
-        print((end - begin).seconds)
-        static_proxies = list_proxies
+                        static_proxies.append(proxy)
+
+def getProxies():
+    global count, static_proxies, max_count
+    lock.acquire()
+    print("count value ", count.value)
+    count.value += 1
+    if(count.value >= max_count or len(static_proxies) < 1):
+        print("scan started")
+        scanUrlForProxies(urlList[websiteIndex.value])
+        websiteIndex.value += 1
+        if websiteIndex.value >= len(urlList):
+            websiteIndex.value = 0
         count.value = 0
-        lock.release()
-        return list_proxies
-    else:
-        lock.release()
-        return static_proxies
+        print("scan complete")
+    lock.release()
+    return static_proxies
 
 def getDriver():
-    proxy = random.choice(getProxies())
+    proxy = random.choice(list(getProxies()))
     options = uc.ChromeOptions()
     options.add_argument('--disable-gpu')
     options.add_argument('--headless')
@@ -103,34 +105,65 @@ def quit_driver_and_reap_children(driver):
     except ChildProcessError:
         pass
 
-def pageDataExtract(id, wait_time):
+def pageDataExtract(id):
     try:
         session = requests.Session()
+        retry = Retry(connect=2, backoff_factor=0, raise_on_status=True)
+        adapter = HTTPAdapter(max_retries=retry, pool_maxsize=30)
+        session.mount('https://', adapter)
         proxy = random.choice(getProxies())
         session.proxies = {
         'https': proxy,
         }
         url = f'https://bina.az/items/{id}'
         try:
-            text = session.get(url, verify=False).text
+            startRequest = datetime.datetime.now()
+            text = session.get(url, verify=False, timeout=timeout).text
         except Exception as e:
-            print("Connection reset. waiting ", wait_time, " seconds")
-            time.sleep(5)
-            return pageDataExtract(id, wait_time + 5)
+            print(e)
+            lock.acquire()
+            try:
+                static_proxies.remove(proxy)
+            except:
+                pass
+            lock.release()
+            return pageDataExtract(id)
+        endRequest = datetime.datetime.now()
+        if (endRequest - startRequest).seconds > 6:
+            lock.acquire()
+            try:
+                static_proxies.remove(proxy)
+            except:
+                pass
+            lock.release()
+
         if "Tapılmadı" in text:
             return None
 
-        if "Checking if the site connection is secure" in text:
+        if "Just a moment..." in text:
             driver = getDriver()
-            driver.get(url)
-            time.sleep(5)
-            text = driver.page_source
+            print("security bypass")
+            try:
+                driver.set_page_load_timeout(10)
+                driver.get(url)
+                time.sleep(5)
+                text = driver.page_source
+                if "banned" in text:
+                    raise Exception()
+            except:
+                print("failed")
+                quit_driver_and_reap_children(driver)
+                return pageDataExtract(id)
             quit_driver_and_reap_children(driver)
+            print("success")
         locations = ""
         info = {}
         fields = {"Kateqoriya", "Mərtəbə", "Sahə", "Otaq sayı","Çıxarış","Təmir", "İpoteka"}
         soup = BeautifulSoup(text, 'lxml')
-        element = soup.find('div', {"class":"search-row__cell search-row__cell--leased"})
+        element = soup.find('div', {"class":"search-row"})
+        if element is None:
+            return None
+        element = element.find('div', {"class":"search-row__cell search-row__cell--leased"})
         if element is None:
             return None
         element = element.find('option', {"selected": "selected"})
@@ -180,7 +213,7 @@ if __name__ == "__main__":
     rows= []
     begin = datetime.datetime.now()
     with mp.Pool() as pool:
-        results = pool.starmap(pageDataExtract, [(i, 5) for i in range(2600000, 2700000)])
+        results = pool.map(pageDataExtract, [i for i in range(2600000, 2700000)])
         for row in results:
             if row is not None:
                 rows.append(row)
@@ -188,4 +221,4 @@ if __name__ == "__main__":
     print((end - begin).seconds)
     info_df = pd.DataFrame(rows)
 
-    info_df.to_csv('test.csv')
+    info_df.to_csv('2.6-3.csv')

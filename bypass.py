@@ -55,9 +55,11 @@ def getDriver():
 
     return getChrome(options)
 
-driver = getDriver()
-driver.set_page_load_timeout(15)
+options = uc.ChromeOptions()
+options.add_argument(f'--proxy-server=198.44.189.23:45787')
+driver = uc.Chrome()
 driver.get('https://bina.az/items/2000000')
+time.sleep(20)
 
 # Get the HTML source of the page using the driver
 html = driver.page_source
