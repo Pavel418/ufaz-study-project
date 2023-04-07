@@ -13,11 +13,13 @@ from urllib3.util.retry import Retry
 import urllib3
 import time
 
+
 timeout = urllib3.Timeout(connect=1.5, read=1.5)
 lock = mp.Lock()
 count = mp.Value("i", 20000)
 max_count = 20000
 manager = mp.Manager()
+failed_ids = manager.list()
 static_proxies = manager.list()
 urlList = ["https://free-proxy-list.net/", "https://www.sslproxies.org/"]
 websiteIndex = mp.Value('i', 0)
@@ -141,21 +143,9 @@ def pageDataExtract(id):
             return None
 
         if "Just a moment..." in text:
-            driver = getDriver()
-            print("security bypass")
-            try:
-                driver.set_page_load_timeout(10)
-                driver.get(url)
-                time.sleep(5)
-                text = driver.page_source
-                if "banned" in text:
-                    raise Exception()
-            except:
-                print("failed")
-                quit_driver_and_reap_children(driver)
-                return pageDataExtract(id)
-            quit_driver_and_reap_children(driver)
-            print("success")
+            lock.acquire()
+            failed_ids.append(id)
+            lock.release()
         locations = ""
         info = {}
         fields = {"Kateqoriya", "Mərtəbə", "Sahə", "Otaq sayı","Çıxarış","Təmir", "İpoteka"}
@@ -212,13 +202,19 @@ def pageDataExtract(id):
 if __name__ == "__main__":
     rows= []
     begin = datetime.datetime.now()
-    with mp.Pool() as pool:
-        results = pool.map(pageDataExtract, [i for i in range(2600000, 2700000)])
-        for row in results:
-            if row is not None:
-                rows.append(row)
+    try:
+        with mp.Pool() as pool:
+            results = pool.map(pageDataExtract, [i for i in range(2600000, 3500000)])
+            for row in results:
+                if row is not None:
+                    rows.append(row)
+    except Exception as e:
+        print(e)
     end = datetime.datetime.now()
     print((end - begin).seconds)
     info_df = pd.DataFrame(rows)
 
     info_df.to_csv('2.6-3.csv')
+
+    with open("unused.txt", "w") as file:
+        file.writelines(str(num) + "\n" for num in list(failed_ids))
