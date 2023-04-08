@@ -17,7 +17,7 @@ for i in range(len(houses)):
     distances.append([])
     for j in range(len(subways)):
         
-        delta_x = houses[i][2]-subways[j][1]
+        delta_x = houses[i][0]-subways[j][1]
         delta_y = houses[i][1]-subways[j][2]
         distance = (delta_x**2 + delta_y**2)**(0.5)
         distances[i].append(distance)
