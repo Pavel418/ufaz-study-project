@@ -2,7 +2,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 data = []
-with open('cleared.csv', 'r') as f:
+with open('with_disstance', 'r') as f:
     data = f.read().splitlines()
 
 # first row is the header
@@ -28,6 +28,7 @@ col_room_count = header.index('Otaq sayД±')
 col_cur_floor = header.index('current_floor')
 col_total_floor = header.index('max_floor')
 col_area = header.index('SahЙ™')
+col_distance = header.index('distances')
 # select where area is less than 10000
 data = [row for row in data if float(row[col_area]) < 10000]
 # get the index of the column we want to graph
@@ -42,6 +43,7 @@ col_data_room_count = [float(row[col_room_count]) for row in data]
 col_data_cur_floor = [float(row[col_cur_floor]) for row in data]
 col_data_total_floor = [float(row[col_total_floor]) for row in data]
 col_data_area = [float(row[col_area]) for row in data]
+col_data_distance = [float(row[col_distance]) for row in data]
 
 def make_map():
     # create map like graph, where x is longtitude and y is latitude and color is price
@@ -122,4 +124,10 @@ def make_graph_price_area():
     col_data_area = [round(i/10)*10 for i in col_data_area]
     make_graph(col_data_area, col_data_price)
 
-make_graph_price_area()
+def make_graph_price_distance():
+    global col_data_distance
+    # approximate area to 10m^2
+    col_data_distance = [round(i/100)*100 for i in col_data_distance]
+    make_graph(col_data_distance, col_data_price)
+
+make_graph_price_distance()
