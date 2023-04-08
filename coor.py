@@ -22,4 +22,4 @@ for i in range(len(houses)):
         distance = (delta_x**2 + delta_y**2)**(0.5)
         distances[i].append(distance)
     min_idx = distances[i].index(min(distances[i]))
-    print('closest subway to house number', i, ' at ', houses[i], 'is subway ', subways[min_idx], ' number ', min_idx, ' at ',  min(distances[i])
+    print('closest subway to house number', i, ' at ', houses[i], 'is subway ', subways[min_idx], ' number ', min_idx, ' at ',  min(distances[i]))
