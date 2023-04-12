@@ -2,7 +2,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 data = []
-with open('with_disstance', 'r') as f:
+with open('with_disstance.csv', 'r', encoding='utf-8') as f:
     data = f.read().splitlines()
 
 # first row is the header
@@ -13,8 +13,8 @@ data = data[1:]
 data = [row.split(',') for row in data]
 secret_variable_count3 = len(data)
 # select where city starts with 'Bak'
-col_city = header.index('city')
-data = [row for row in data if row[col_city].startswith('Bak')]
+#col_city = header.index('city')
+#data = [row for row in data if row[col_city].startswith('Bak')]
 secret_variable_count1 = len(data)
 # select where price is less than 500000
 col_price = header.index('price')
@@ -24,13 +24,13 @@ print(secret_variable_count2, "/", secret_variable_count1, '/', secret_variable_
 print("This covers", round(secret_variable_count2/secret_variable_count1*100, 3), "% of the data in Baku")
 print("Tihs covers", round(secret_variable_count2/secret_variable_count3*100, 3), "% of the data in Azerbaijan")
 print("There are", round(secret_variable_count1/secret_variable_count3*100, 3), "% of the data in Baku across Azerbaijan")
-col_room_count = header.index('Otaq sayД±')
+#col_room_count = header.index('Otaq sayД±')
 col_cur_floor = header.index('current_floor')
 col_total_floor = header.index('max_floor')
-col_area = header.index('SahЙ™')
+#col_area = header.index('SahЙ™')
 col_distance = header.index('distances')
 # select where area is less than 10000
-data = [row for row in data if float(row[col_area]) < 10000]
+#data = [row for row in data if float(row[col_area]) < 10000]
 # get the index of the column we want to graph
 col_lat = header.index('latitude')
 col_long = header.index('longitude')
@@ -39,10 +39,10 @@ col_long = header.index('longitude')
 col_data_price = [float(row[col_price]) for row in data]
 col_data_lat = [float(row[col_lat]) for row in data]
 col_data_long = [float(row[col_long]) for row in data]
-col_data_room_count = [float(row[col_room_count]) for row in data]
+#col_data_room_count = [float(row[col_room_count]) for row in data]
 col_data_cur_floor = [float(row[col_cur_floor]) for row in data]
 col_data_total_floor = [float(row[col_total_floor]) for row in data]
-col_data_area = [float(row[col_area]) for row in data]
+#col_data_area = [float(row[col_area]) for row in data]
 col_data_distance = [float(row[col_distance]) for row in data]
 
 def make_map():
@@ -92,7 +92,8 @@ def make_3d_graph_price_long_lat():
 
 def make_graph_price_room_count():
     # create graph where x is room count and y is price
-    make_graph(col_data_room_count, col_data_price)
+    #make_graph(col_data_room_count, col_data_price)
+    pass
 
 def make_graph_price_current_floor():
     make_graph(col_data_cur_floor, col_data_price)

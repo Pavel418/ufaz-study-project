@@ -1,0 +1,587 @@
+,Kateqoriya,Mərtəbə,Sahə,Otaq sayı,Çıxarış,İpoteka,Təmir,price,price-cur,locations,latitude,city,longtitude,id,date
+0,Yeni tikili,17 / 19,124 m²,3,var,var,var,260000,AZN,"İnşaatçılar m.,Yasamal r.",40.38257828125999,Bakı,49.80385780334476,3100002,15 Dekabr 2022 
+1,Köhnə tikili,5 / 6,80 m²,3,var,,,165000,AZN,"İncəsənət və Mədəniyyət Un. ,Dövlət Statistika Komitəsi ,Nizami m.,Elmlər Akademiyası m.,Yasamal r.,Yasamal q.",40.37945913329833,Bakı,49.82139196857361,3100003,15 Dekabr 2022 
+2,Yeni tikili,5 / 18,53 m²,2,var,,,157000,AZN,"ASAN Xidmət №1 ,TQDK ,Neftçi bazası ,Nəsimi r.",40.40928899571853,Bakı,49.80875551700596,3100007,15 Dekabr 2022 
+3,Yeni tikili,4 / 19,140 m²,3,var,,,340000,AZN,"Səməd Vurğun parkı ,Nəsimi r.",40.39414959485713,Bakı,49.7993946075439,3100008,05 Dekabr 2022 
+4,Yeni tikili,7 / 10,138 m²,3,var,,,280000,AZN,"İnşaatçılar m.,Yasamal r.",40.42501388353632,Bakı,49.91049531402914,3100015,16 Yanvar 2023 
+5,Yeni tikili,5 / 16,50 m²,2,yoxdur,,,123000,AZN,"ASAN Xidmət №1 ,TQDK ,Neftçi bazası ,Nərimanov r.",40.40027766320492,Bakı,49.84006762504578,3100022,16 Dekabr 2022 
+6,Yeni tikili,4 / 19,140 m²,3,var,,,340000,AZN,"Səməd Vurğun parkı ,Nəsimi r.",40.39414959485713,Bakı,49.7993946075439,3100023,02 Dekabr 2022 
+7,Yeni tikili,15 / 20,103 m²,3,yoxdur,,,195000,AZN,Yasamal r.,40.4053327515815,Bakı,49.81380344106,3100037,15 Dekabr 2022 
+8,Köhnə tikili,4 / 9,80 m²,3,var,,,105000,AZN,"Ukrayna dairəsi ,Xətai r.,Əhmədli q.",40.37649764183499,Bakı,49.84163403511051,3100040,15 Dekabr 2022 
+9,Yeni tikili,7 / 16,118 m²,3,var,,,170000,AZN,"Binəqədi r.,9-cu mikrorayon q.",40.42205959726204,Bakı,49.80957715747362,3100048,23 Noyabr 2022 
+10,Köhnə tikili,8 / 9,90 m²,4,var,var,var,135000,AZN,Yasamal r.,40.39538815155955,Bakı,49.7904249334874,3100056,28 Yanvar 2023 
+11,Köhnə tikili,2 / 5,38 m²,2,var,,,74000,AZN,"20 Yanvar m.,Memar Əcəmi m.,Nəsimi r.",40.37649764183499,Bakı,49.84163403511051,3100112,15 Dekabr 2022 
+12,Yeni tikili,9 / 17,163 m²,3,yoxdur,,,309000,AZN,"İncəsənət və Mədəniyyət Un. ,Elmlər Akademiyası m.,Yasamal r.",40.39414959485713,Bakı,49.7993946075439,3100117,15 Dekabr 2022 
+13,Köhnə tikili,2 / 9,85 m²,3,var,,,155000,AZN,"Xalqlar Dostluğu m.,Nizami r.",40.38855213843042,Bakı,49.87120270729065,3100130,15 Dekabr 2022 
+14,Yeni tikili,7 / 18,84 m²,2,var,,,265000,AZN,"Bakı Dövlət Universiteti ,Elmlər Akademiyası m.,Yasamal r.",40.3765957210189,Bakı,49.85243260860443,3100139,26 Fevral 2023 
+15,Yeni tikili,5 / 17,126 m²,3,var,,,175000,AZN,"Həzi Aslanov m.,Xətai r.",40.39298300258589,Bakı,49.95403544813546,3100152,15 Dekabr 2022 
+16,Yeni tikili,19 / 21,75 m²,3,var,,,205000,AZN,"Beşmərtəbə ,Nizami m.,Yasamal r.",40.38218599850386,Bakı,49.81046676635742,3100189,21 Noyabr 2022 
+17,Yeni tikili,13 / 17,250 m²,4,var,,,680000,AZN,"Rəssamlıq Akademiyası ,Nərimanov r.",40.40554735588255,Bakı,49.87506508827209,3100198,14 Yanvar 2023 
+18,Yeni tikili,9 / 16,334 m²,4,yoxdur,,,668000,AZN,"Bakı Dövlət Universiteti ,Memarlıq və İnşaat Universiteti ,Elmlər Akademiyası m.,Yasamal r.",40.3765957210189,Bakı,49.85243260860443,3100219,10 Mart 2023 
+19,Yeni tikili,4 / 27,147 m²,3,var,,,259800,AZN,"Yasamal r.,Yasamal q.",40.38816806232006,Bakı,49.83243942260742,3100245,15 Dekabr 2022 
+20,Köhnə tikili,7 / 9,65 m²,3,var,,,115000,AZN,"Memar Əcəmi m.,Nəsimi r.,2-ci mikrorayon q.",40.39045008382347,Bakı,49.830508675731,3100248,15 Dekabr 2022 
+21,Köhnə tikili,2 / 5,40 m²,2,var,,,74000,AZN,"Memar Əcəmi m.,20 Yanvar m.,Nəsimi r.,1-ci mikrorayon q.",40.40987718218729,Bakı,49.80780601501465,3100250,15 Dekabr 2022 
+22,Köhnə tikili,4 / 5,70 m²,3,var,,,155000,AZN,"Space TV ,Yasamal r.",40.37533198376934,Bakı,49.81793688867354,3100251,15 Dekabr 2022 
+23,Köhnə tikili,2 / 5,35 m²,1,var,,,72000,AZN,"20 Yanvar m.,Memar Əcəmi m.,Nəsimi r.,1-ci mikrorayon q.",40.42028115716548,Bakı,49.81340365102955,3100256,15 Dekabr 2022 
+24,Yeni tikili,3 / 17,55 m²,2,var,var,var,110000,AZN,"Memar Əcəmi m.,Binəqədi r.,9-cu mikrorayon q.",40.39205366748811,Bakı,49.84065234661102,3100259,15 Dekabr 2022 
+25,Yeni tikili,8 / 14,57 m²,2,var,var,var,147000,AZN,"Zoopark ,Nəsimi r.",40.40210780478213,Bakı,49.85758781433109,3100263,10 Yanvar 2023 
+26,Yeni tikili,8 / 10,72 m²,2,var,,,94000,AZN,"Neapol dairəsi ,Suraxanı r.,Yeni Günəşli q.",40.38,Bakı,49.965,3100268,25 Dekabr 2022 
+27,Yeni tikili,9 / 16,50 m²,2,var,,,93000,AZN,"Neftçilər m.,Nizami r.",40.38855213843042,Bakı,49.87120270729065,3100275,15 Dekabr 2022 
+28,Yeni tikili,12 / 18,135 m²,3,yoxdur,,,235000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.39816149998397,Bakı,49.84086155891422,3100322,21 Dekabr 2022 
+29,Yeni tikili,7 / 15,140.5 m²,3,var,var,var,240000,AZN,"İnşaatçılar m.,Yasamal r.,Yasamal q.",40.38572244563997,Bakı,49.81052923716279,3100346,10 Yanvar 2023 
+30,Köhnə tikili,7 / 9,95 m²,3,var,,,150000,AZN,"Səbail r.,Bayıl q.",40.34834421871929,Bakı,49.83325214445804,3100372,15 Dekabr 2022 
+31,Yeni tikili,15 / 17,159 m²,3,var,,,270000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nəsimi r.",40.40554735588255,Bakı,49.87506508827209,3100373,14 Yanvar 2023 
+32,Köhnə tikili,5 / 9,90 m²,3,var,,,149600,AZN,"Binəqədi r.,8-ci mikrorayon q.",40.41624220990267,Bakı,49.84125600527955,3100375,15 Dekabr 2022 
+33,Yeni tikili,17 / 17,53 m²,1,var,,,92000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.4209144,Bakı,49.842779500000006,3100385,15 Dekabr 2022 
+34,Köhnə tikili,2 / 5,28 m²,1,yoxdur,,,73900,AZN,"20 Yanvar m.,Memar Əcəmi m.,Nəsimi r.,1-ci mikrorayon q.",40.39336516184337,Bakı,49.79300022125244,3100389,15 Dekabr 2022 
+35,Yeni tikili,19 / 19,100 m²,3,yoxdur,,,175000,AZN,Xətai r.,40.3863886681378,Bakı,49.80817391355895,3100396,15 Dekabr 2022 
+36,Yeni tikili,6 / 16,50 m²,2,var,,,110000,AZN,"Memar Əcəmi m.,Binəqədi r.",40.38855213843042,Bakı,49.87120270729065,3100406,15 Dekabr 2022 
+37,Köhnə tikili,2 / 4,190 m²,5,var,,,995000,AZN,"Azneft meydanı ,İçəri Şəhər ,Qubernator parkı ,İçəri Şəhər m.,Səbail r.",40.36321047990583,Bakı,49.83512471295506,3100421,23 Yanvar 2023 
+38,Yeni tikili,9 / 11,50.4 m²,2,var,,,63500,AZN,"Abşeron r.,Masazır q.",40.48994503694333,Bakı,49.75948333740234,3100424,15 Dekabr 2022 
+39,Köhnə tikili,2 / 5,72.1 m²,4,,,,115000,AZN,"Neftçilər m.,Nizami r.,8-ci kilometr q.",40.4107382,Bakı,49.9384708,3100475,15 Dekabr 2022 
+40,Yeni tikili,2 / 10,180 m²,4,var,,,380000,AZN,"Elmlər Akademiyası m.,Hüseyn Cavid parkı ,Bakı Dövlət Universiteti ,Yasamal r.",40.39584916837152,Bakı,49.85226631164551,3100504,15 Dekabr 2022 
+41,Köhnə tikili,8 / 10,72 m²,2,var,,,94000,AZN,"Xalqlar Dostluğu m.,Suraxanı r.,Yeni Günəşli q.",40.39767943033438,Bakı,49.95243072509766,3100510,15 Dekabr 2022 
+42,Yeni tikili,14 / 16,137 m²,3,var,,,162000,AZN,Xətai r.,40.40152503521376,Bakı,49.86131862059725,3100511,28 Dekabr 2022 
+43,Yeni tikili,4 / 7,222.6 m²,5,yoxdur,,,434000,AZN,Xətai r.,40.39414959485713,Bakı,49.7993946075439,3100521,15 Dekabr 2022 
+44,Yeni tikili,2 / 5,120 m²,3,var,,,250000,AZN,"ASAN Xidmət №2 ,Ağ şəhər ,Şah İsmayıl Xətai m.,Xətai r.",40.38602700216489,Bakı,49.86655712127686,3100571,15 Fevral 2023 
+45,Köhnə tikili,2 / 4,70 m²,3,var,,,76000,AZN,"Xəzər r.,Mərdəkan q.",40.36822884896801,Bakı,49.813362210989,3100579,15 Fevral 2023 
+46,Köhnə tikili,9 / 9,100 m²,5,var,,,90000,AZN,"Suraxanı r.,Hövsan q.",40.3895335,Bakı,50.07034859999999,3100582,15 Dekabr 2022 
+47,Yeni tikili,3 / 14,100 m²,3,yoxdur,,,130000,AZN,"Həzi Aslanov m.,Xətai r.,Həzi Aslanov q.",40.38930339224178,Bakı,49.85948536585312,3100608,15 Dekabr 2022 
+48,Köhnə tikili,6 / 9,60 m²,2,var,,,105000,AZN,"Sabunçu r.,Bakıxanov q.",40.38499730777751,Bakı,49.83810424804688,3100617,06 Dekabr 2022 
+49,Yeni tikili,7 / 16,57 m²,2,var,var,var,80900,AZN,"Suraxanı r.,Massiv V q.",40.38816806232006,Bakı,49.83243942260742,3100625,15 Dekabr 2022 
+50,Yeni tikili,7 / 18,60 m²,2,var,var,var,129000,AZN,"20 Yanvar m.,Yasamal r.",40.40328327684168,Bakı,49.85078707337379,3100627,15 Dekabr 2022 
+51,Yeni tikili,10 / 18,103.3 m²,2,,,,175000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.37979234319358,Bakı,49.85448785126209,3100643,15 Dekabr 2022 
+52,Yeni tikili,18 / 21,85 m²,3,var,var,var,130000,AZN,"Əhmədli m.,Xətai r.",40.38816806232006,Bakı,49.83243942260742,3100644,03 Fevral 2023 
+53,Yeni tikili,9 / 12,51 m²,2,yoxdur,,,114000,AZN,"Qara Qarayev m.,Nizami r.,8-ci kilometr q.",40.41924662614147,Bakı,49.93363380432129,3100646,15 Dekabr 2022 
+54,Yeni tikili,8 / 18,95 m²,3,yoxdur,,,192000,AZN,"28 May m.,Neft Akademiyası ,Nəsimi r.",40.38525881895442,Bakı,49.85801696777344,3100655,15 Dekabr 2022 
+55,Yeni tikili,15 / 19,64 m²,2,var,,,72000,AZN,Nizami r.,40.39816149998397,Bakı,49.84086155891422,3100656,23 Dekabr 2022 
+56,Yeni tikili,5 / 6,51.3 m²,2,var,var,yoxdur,37000,AZN,"Abşeron r.,Masazır q.",40.49069570615754,Bakı,49.7541618347168,3100657,15 Dekabr 2022 
+57,Köhnə tikili,6 / 9,115 m²,4,var,var,var,195000,AZN,"Yasamal bazarı ,İnşaatçılar m.,Yasamal r.",40.38459631748634,Bakı,49.80205163423625,3100680,15 Dekabr 2022 
+58,Köhnə tikili,3 / 9,80 m²,3,var,,,105000,AZN,"Neapol dairəsi ,Xətai r.,Əhmədli q.",40.37933148120717,Bakı,49.96082788093021,3100696,18 Dekabr 2022 
+59,Yeni tikili,14 / 18,58.6 m²,2,var,,,158000,AZN,"Azərbaycan turizm institutu ,Nərimanov r.",40.39771211313156,Bakı,49.86179351806641,3100721,15 Dekabr 2022 
+60,Yeni tikili,9 / 15,115 m²,3,var,,,220000,AZN,"Bakı Dövlət Universiteti ,Memarlıq və İnşaat Universiteti ,Elmlər Akademiyası m.,Yasamal r.",40.37738239264175,Bakı,49.82495069503784,3100729,15 Dekabr 2022 
+61,Köhnə tikili,1 / 6,86 m²,3,var,,,135000,AZN,"Yasamal r.,Yeni Yasamal q.",40.39111307332502,Bakı,49.7940759629918,3100754,15 Dekabr 2022 
+62,Köhnə tikili,1 / 4,45 m²,2,var,,,95000,AZN,"Yasamal bazarı ,İnşaatçılar m.,Yasamal r.",40.37620916175648,Bakı,49.81580107043555,3100758,15 Dekabr 2022 
+63,Köhnə tikili,3 / 5,45 m²,3,var,,,87000,AZN,"20 Yanvar m.,Memar Əcəmi m.,8 Noyabr m.,Nəsimi r.,3-cü mikrorayon q.",40.39228246585045,Bakı,49.84178960323334,3100764,15 Dekabr 2022 
+64,Yeni tikili,15 / 16,150 m²,4,var,,,320000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.40554735588255,Bakı,49.87506508827209,3100783,15 Fevral 2023 
+65,Yeni tikili,12 / 18,136 m²,3,var,,,260000,AZN,"Tibb Universiteti ,Nəsimi r.",40.39232579999999,Bakı,49.82880550000004,3100839,15 Dekabr 2022 
+66,Köhnə tikili,1 / 9,95 m²,4,var,var,var,140500,AZN,"Binəqədi r.,9-cu mikrorayon q.",40.42096666381098,Bakı,49.80932972324831,3100856,15 Dekabr 2022 
+67,Köhnə tikili,9 / 9,80 m²,4,var,,,118000,AZN,"Neftçilər m.,Nizami r.",40.39026819642278,Bakı,49.95772004127506,3100858,27 Yanvar 2023 
+68,Köhnə tikili,8 / 9,80 m²,3,var,var,var,135000,AZN,"Xalqlar Dostluğu m.,Xətai r.",40.39989258617802,Bakı,49.83979431395813,3100871,07 Fevral 2023 
+69,Yeni tikili,16 / 17,188 m²,4,var,var,yoxdur,329000,AZN,"Tibb Universiteti ,Nəsimi r.",40.3651072257085,Bakı,49.81950849294662,3100880,22 Dekabr 2022 
+70,Yeni tikili,5 / 16,55 m²,2,var,var,var,145000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.37371049868611,Bakı,49.83537912368774,3100885,15 Noyabr 2022 
+71,Köhnə tikili,5 / 7,33.4 m²,1,yoxdur,,,50000,AZN,"Nizami r.,8-ci kilometr q.",40.40590190938774,Bakı,49.9564094138916,3100887,15 Dekabr 2022 
+72,Köhnə tikili,1 / 9,75 m²,3,var,,,155000,AZN,"Neftçi bazası ,Nərimanov r.",40.39181261122973,Bakı,49.80257034301758,3100896,15 Dekabr 2022 
+73,Köhnə tikili,2 / 5,80 m²,3,var,,,207000,AZN,"Bakı Slavyan Universiteti ,Azərbaycan Dillər Universiteti ,Sirk ,28 May m.,Nəsimi r.",40.3651072257085,Bakı,49.81950849294662,3100897,15 Dekabr 2022 
+74,Yeni tikili,1 / 4,50 m²,2,var,,,54000,AZN,Xırdalan,40.39228246585045,Xırdalan,49.84178960323334,3100901,15 Dekabr 2022 
+75,Yeni tikili,6 / 16,170 m²,3,yoxdur,,,399000,AZN,"Nəriman Nərimanov parkı ,Nəriman Nərimanov m.,Nərimanov r.",40.40554735588255,Bakı,49.87506508827209,3100938,30 Dekabr 2022 
+76,Yeni tikili,10 / 11,70 m²,2,var,,,128500,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.37371049868611,Bakı,49.83537912368774,3100943,15 Dekabr 2022 
+77,Köhnə tikili,4 / 9,105 m²,4,var,var,var,120000,AZN,Xətai r.,40.39989258617802,Bakı,49.83979431395813,3100961,17 Fevral 2023 
+78,Yeni tikili,4 / 18,140 m²,3,var,,,340000,AZN,"Səməd Vurğun parkı ,28 May m.,Nəsimi r.",40.39989258617802,Bakı,49.83979431395813,3100984,02 Dekabr 2022 
+79,Yeni tikili,17 / 17,150 m²,3,var,,,250000,AZN,"Səməd Vurğun parkı ,28 May m.,Neft Akademiyası ,Nəsimi r.",40.3797697073317,Bakı,49.85332602013099,3100991,15 Dekabr 2022 
+80,Yeni tikili,5 / 17,139 m²,4,yoxdur,var,var,360000,AZN,"Bakı Slavyan Universiteti ,Azərbaycan Dillər Universiteti ,28 May m.,Nəsimi r.",40.38485974246297,Bakı,49.84452714793746,3100996,14 Yanvar 2023 
+81,Köhnə tikili,6 / 10,103 m²,6,var,,,249000,AZN,"İncəsənət və Mədəniyyət Un. ,Elmlər Akademiyası m.,Nəsimi r.",40.3863784022024,Bakı,49.84768509864811,3101010,15 Dekabr 2022 
+82,Köhnə tikili,4 / 5,80 m²,3,var,,,156000,AZN,"Elmlər Akademiyası m.,Hüseyn Cavid parkı ,Yasamal r.",40.39061957433251,Bakı,49.84664440155029,3101018,15 Dekabr 2022 
+83,Yeni tikili,14 / 18,143 m²,3,var,,,280000,AZN,"Cavanşir körpüsü ,Şah İsmayıl Xətai m.,Xətai r.",40.37371049868611,Bakı,49.83537912368774,3101040,15 Dekabr 2022 
+84,Yeni tikili,15 / 17,90 m²,3,var,var,var,180000,AZN,"Elmlər Akademiyası m.,Nizami m.,Yasamal r.",40.37460785862972,Bakı,49.8236035039637,3101087,15 Dekabr 2022 
+85,Yeni tikili,15 / 17,140 m²,4,var,var,var,162000,AZN,Xətai r.,40.39989258617802,Bakı,49.83979431395813,3101090,23 Dekabr 2022 
+86,Yeni tikili,10 / 18,100 m²,3,var,var,var,170000,AZN,"Yasamal bazarı ,İnşaatçılar m.,Yasamal r.",40.38781667161964,Bakı,49.85220193862915,3101093,16 Fevral 2023 
+87,Yeni tikili,3 / 19,182 m²,4,var,,,455000,AZN,"Zabitlər parkı ,Sirk ,Azərbaycan Dillər Universiteti ,Nəsimi r.",40.39203732471822,Bakı,49.84165549278259,3101112,15 Dekabr 2022 
+88,Yeni tikili,6 / 17,145 m²,4,var,,,530000,AZN,"Sirk ,Zabitlər parkı ,Azərbaycan Dillər Universiteti ,Bakı Slavyan Universiteti ,Nəsimi r.",40.38613323957885,Bakı,49.82919931411747,3101125,14 Yanvar 2023 
+89,Yeni tikili,15 / 20,167 m²,4,var,,,334000,AZN,"ASAN Xidmət №3 ,Yasamal bazarı ,Yasamal r.",40.37620916175648,Bakı,49.81580107043555,3101127,15 Dekabr 2022 
+90,Yeni tikili,2 / 10,135 m²,3,var,,,260000,AZN,"Bakı Dövlət Universiteti ,Elmlər Akademiyası m.,Yasamal r.,Yasamal q.",40.38046156179651,Bakı,49.81176495552063,3101129,13 Yanvar 2023 
+91,Köhnə tikili,3 / 9,80 m²,3,var,,,104000,AZN,"Ukrayna dairəsi ,Əhmədli m.,Xətai r.,Əhmədli q.",40.39270174045908,Bakı,49.83329557619629,3101140,15 Dekabr 2022 
+92,Yeni tikili,8 / 20,67 m²,2,yoxdur,,,84500,AZN,"Sabunçu r.,Bakıxanov q.",40.43548665575175,Bakı,49.9577925570086,3101159,15 Dekabr 2022 
+93,Yeni tikili,15 / 17,212 m²,4,var,,,440000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.39205366748811,Bakı,49.84065234661102,3101161,15 Dekabr 2022 
+94,Köhnə tikili,4 / 5,72 m²,3,var,,,84000,AZN,"Xəzər r.,Mərdəkan q.",40.48406691750097,Bakı,50.15862820046934,3101178,15 Dekabr 2022 
+95,Köhnə tikili,2 / 5,55 m²,2,var,,,88000,AZN,"Nizami r.,8-ci kilometr q.",40.40689535053587,Bakı,49.93603706359863,3101183,15 Dekabr 2022 
+96,Yeni tikili,9 / 12,51 m²,2,yoxdur,,,116000,AZN,"Qara Qarayev m.,Nizami r.",40.38691775683309,Bakı,49.8079776763916,3101186,15 Dekabr 2022 
+97,Yeni tikili,7 / 18,114 m²,3,yoxdur,,,125000,AZN,Abşeron r.,40.45511190000001,Xırdalan,49.74459389999993,3101235,15 Dekabr 2022 
+98,Yeni tikili,11 / 18,200 m²,4,var,var,var,700000,AZN,"Nəsimi bazarı ,Koala parkı ,Nəsimi r.",40.38264366149726,Bakı,49.87209320068359,3101252,15 Dekabr 2022 
+99,Köhnə tikili,3 / 9,80 m²,3,var,var,var,105000,AZN,"Ukrayna dairəsi ,Əhmədli m.,Xətai r.,Əhmədli q.",40.41913797142315,Bakı,49.92514979797704,3101265,15 Dekabr 2022 
+100,Yeni tikili,7 / 16,58 m²,2,var,,,115000,AZN,Xətai r.,40.39816149998397,Bakı,49.84086155891422,3101271,01 Yanvar 2023 
+101,Yeni tikili,10 / 15,114 m²,3,var,,,220000,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.37620916175648,Bakı,49.81580107043555,3101281,15 Dekabr 2022 
+102,Köhnə tikili,7 / 9,65 m²,2,var,var,yoxdur,85000,AZN,"Yasamal r.,Yeni Yasamal q.",40.38274990424748,Bakı,49.8084390163422,3101286,15 Dekabr 2022 
+103,Yeni tikili,11 / 16,95 m²,2,yoxdur,,,132000,AZN,"Qara Qarayev m.,Nizami r.",40.40366828798837,Bakı,49.87215757369995,3101307,15 Dekabr 2022 
+104,Köhnə tikili,6 / 9,70 m²,3,var,,,175000,AZN,"Bakı Dövlət Universiteti ,Elmlər Akademiyası m.,Yasamal r.",40.37671014655314,Bakı,49.81726884841922,3101312,15 Dekabr 2022 
+105,Yeni tikili,11 / 17,126 m²,3,yoxdur,,,225000,AZN,"Sevil Qazıyeva parkı ,Rusiya səfirliyi ,Zabitlər parkı ,M.Hüseynzadə parkı ,Nəsimi r.",40.38658589169745,Bakı,49.83277153759321,3101332,15 Dekabr 2022 
+106,Köhnə tikili,2 / 9,90 m²,4,var,var,var,160000,AZN,Nərimanov r.,40.38781667161964,Bakı,49.85220193862915,3101336,08 Dekabr 2022 
+107,Yeni tikili,17 / 24,111 m²,3,var,var,var,200000,AZN,"İnşaatçılar m.,Yasamal r.",40.38616571358857,Bakı,49.8082182737412,3101341,15 Dekabr 2022 
+108,Köhnə tikili,3 / 3,110 m²,5,var,,,185000,AZN,"Mərkəzi Univermaq ,M.Ə.Sabir parkı ,Fontanlar bağı ,İqsadiyyat Universiteti ,Azərbaycan kinoteatrı ,Axundov bağı ,İçəri Şəhər m.,Yasamal r.",40.37093931456427,Bakı,49.83393622160653,3101357,20 Dekabr 2022 
+109,Yeni tikili,2 / 16,158 m²,4,var,,,250000,AZN,"Binəqədi r.,8-ci mikrorayon q.",40.41712439651699,Bakı,49.8432086534424,3101370,24 Mart 2023 
+110,Yeni tikili,16 / 19,90 m²,3,yoxdur,,,185000,AZN,"Həzi Aslanov m.,Xətai r.,Həzi Aslanov q.",40.37309747519567,Bakı,49.95346069335938,3101382,Dünən 18:04 
+111,Köhnə tikili,2 / 5,32 m²,1,var,,,73500,AZN,"20 Yanvar m.,Nəsimi r.,1-ci mikrorayon q.",40.4061232,Bakı,49.81045159999996,3101394,15 Noyabr 2022 
+112,Yeni tikili,10 / 12,130 m²,3,var,,,220000,AZN,"Nəsimi r.,3-cü mikrorayon q.",40.38042069783201,Bakı,49.80892181396484,3101402,28 Fevral 2023 
+113,Yeni tikili,10 / 20,65 m²,2,yoxdur,,,109000,AZN,"Qara Qarayev m.,Nizami r.",40.38855213843042,Bakı,49.87120270729065,3101403,05 Dekabr 2022 
+114,Yeni tikili,14 / 17,105 m²,3,var,,,149000,AZN,"Həzi Aslanov m.,Xətai r.",40.39989258617802,Bakı,49.83979431395813,3101419,18 Dekabr 2022 
+115,Yeni tikili,11 / 17,145 m²,3,var,,,245000,AZN,"ASAN Xidmət №3 ,Elmlər Akademiyası m.,Yasamal r.",40.37706435555299,Bakı,49.80721533357917,3101454,08 Dekabr 2022 
+116,Yeni tikili,7 / 18,58 m²,2,var,var,var,130000,AZN,"20 Yanvar m.,Yasamal r.",40.37620916175648,Bakı,49.81580107043555,3101459,18 Mart 2023 
+117,Yeni tikili,9 / 13,55 m²,2,var,var,var,115000,AZN,"Memar Əcəmi m.,Nəsimi r.,3-cü mikrorayon q.",40.36942330420567,Bakı,49.82101321220402,3101467,05 Yanvar 2023 
+118,Köhnə tikili,3 / 5,52 m²,2,var,,,100000,AZN,"Binəqədi r.,7-ci mikrorayon q.",40.42501388353632,Bakı,49.91049531402914,3101496,15 Dekabr 2022 
+119,Yeni tikili,10 / 16,196 m²,4,var,var,yoxdur,313600,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.40328327684168,Bakı,49.85078707337379,3101512,15 Dekabr 2022 
+120,Yeni tikili,12 / 19,159 m²,3,var,,,227000,AZN,"Nəriman Nərimanov m.,Nərimanov r.",40.38535688538403,Bakı,49.82866287231445,3101515,26 Yanvar 2023 
+121,Köhnə tikili,9 / 9,80 m²,3,var,,,130000,AZN,"Binəqədi r.,8-ci mikrorayon q.",40.41784320668751,Bakı,49.84295116137697,3101520,15 Dekabr 2022 
+122,Yeni tikili,7 / 21,91 m²,3,yoxdur,,,127500,AZN,"Yasamal r.,Yeni Yasamal q.",40.37769681271017,Bakı,49.85174687475908,3101523,15 Dekabr 2022 
+123,Köhnə tikili,1 / 5,140 m²,5,var,,,120000,AZN,Xırdalan,40.45259742493047,Xırdalan,49.73317841843254,3101580,15 Dekabr 2022 
+124,Yeni tikili,5 / 17,70 m²,2,var,,,98000,AZN,"Xətai r.,Əhmədli q.",40.3679082827185,Bakı,49.96067591546736,3101596,15 Dekabr 2022 
+125,Köhnə tikili,2 / 5,61 m²,3,var,,,137000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.41934464307053,Bakı,49.92526531219486,3101605,01 Yanvar 2023 
+126,Yeni tikili,7 / 13,117 m²,3,var,,,235000,AZN,Nəsimi r.,40.3863784022024,Bakı,49.84768509864811,3101610,10 Dekabr 2022 
+127,Yeni tikili,17 / 18,63 m²,2,var,,,93000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.4209144,Bakı,49.842779500000006,3101624,15 Dekabr 2022 
+128,Yeni tikili,6 / 6,42 m²,2,var,,,44500,AZN,"Abşeron r.,Masazır q.",40.48997767490987,Bakı,49.75948333740234,3101629,15 Dekabr 2022 
+129,Yeni tikili,12 / 17,75 m²,2,var,,,95000,AZN,"Ukrayna dairəsi ,Əhmədli m.,Xətai r.,Əhmədli q.",40.3679082827185,Bakı,49.96067591546736,3101632,15 Dekabr 2022 
+130,Yeni tikili,3 / 16,55 m²,2,var,,,95000,AZN,"Xətai r.,Əhmədli q.",40.3679082827185,Bakı,49.96067591546736,3101642,15 Dekabr 2022 
+131,Köhnə tikili,4 / 5,50 m²,2,var,,,105000,AZN,"20 Yanvar m.,Memar Əcəmi m.,Nəsimi r.",40.39352858614141,Bakı,49.8204231262207,3101667,16 Dekabr 2022 
+132,Yeni tikili,17 / 18,64 m²,2,var,,,93000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.41934464307053,Bakı,49.92526531219486,3101741,19 Dekabr 2022 
+133,Yeni tikili,16 / 18,67 m²,3,var,,,120000,AZN,"Binəqədi r.,Biləcəri q.",40.42356677708481,Bakı,49.80418208761,3101772,16 Dekabr 2022 
+134,Yeni tikili,12 / 18,150 m²,4,var,,,300000,AZN,"Memar Əcəmi m.,Binəqədi r.,9-cu mikrorayon q.",40.41867485787588,Bakı,49.81099784374237,3101875,16 Dekabr 2022 
+135,Köhnə tikili,1 / 5,64 m²,2,var,,,110000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.4209144,Bakı,49.842779500000006,3101881,23 Dekabr 2022 
+136,Yeni tikili,9 / 16,69 m²,2,yoxdur,,,110000,AZN,"Qara Qarayev m.,Nizami r.,8-ci kilometr q.",40.4121759491091,Bakı,49.93409343488769,3101882,16 Dekabr 2022 
+137,Yeni tikili,13 / 18,98.5 m²,3,var,,,125000,AZN,"Binəqədi r.,9-cu mikrorayon q.",40.38218599850386,Bakı,49.81046676635742,3101883,12 Dekabr 2022 
+138,Köhnə tikili,5 / 9,160 m²,5,var,var,var,248000,AZN,"Yasamal r.,Yasamal q.",40.39336516184337,Bakı,49.79300022125244,3101893,16 Noyabr 2022 
+139,Yeni tikili,3 / 4,74 m²,2,yoxdur,,,76000,AZN,Xətai r.,40.39989258617802,Bakı,49.83979431395813,3101901,19 Dekabr 2022 
+140,Köhnə tikili,1 / 9,80 m²,3,var,var,var,153500,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nərimanov r.",40.38816806232006,Bakı,49.83243942260742,3101907,25 Fevral 2023 
+141,Yeni tikili,6 / 17,86.5 m²,3,var,,,210000,AZN,"Nəriman Nərimanov parkı ,Rəssamlıq Akademiyası ,Nəriman Nərimanov m.,Nərimanov r.",40.41699219735978,Bakı,49.93324756622318,3101953,22 Dekabr 2022 
+142,Köhnə tikili,2 / 5,52 m²,2,var,,,92000,AZN,"Tibb Universiteti ,Nəsimi r.",40.39232579999999,Bakı,49.82880550000004,3101977,16 Dekabr 2022 
+143,Yeni tikili,4 / 17,59 m²,1,var,,,116000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.37998753828459,Bakı,49.85486268997196,3101987,16 Dekabr 2022 
+144,Yeni tikili,2 / 14,141 m²,3,var,var,var,250000,AZN,"8 Noyabr m.,Nəsimi r.,3-cü mikrorayon q.",40.39668179975799,Bakı,49.81627188354493,3101988,16 Dekabr 2022 
+145,Köhnə tikili,2 / 2,72 m²,2,var,,,88000,AZN,Nərimanov r.,40.39816149998397,Bakı,49.84086155891422,3102000,18 Yanvar 2023 
+146,Yeni tikili,15 / 18,105 m²,3,var,var,var,190000,AZN,"Bakı Asiya Universiteti ,8 Noyabr m.,Nəsimi r.",40.40210780478213,Bakı,49.85758781433109,3102002,30 Yanvar 2023 
+147,Köhnə tikili,4 / 5,76 m²,3,var,,,122500,AZN,"Neftçilər m.,Nizami r.",40.37104456957248,Bakı,49.95549254560103,3102006,31 Dekabr 2022 
+148,Yeni tikili,12 / 16,60 m²,2,yoxdur,var,var,95000,AZN,"Yasamal r.,Yasamal q.",40.40952590477563,Bakı,49.84445571899418,3102010,04 Yanvar 2023 
+149,Yeni tikili,9 / 21,155 m²,3,var,var,var,289000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.38816806232006,Bakı,49.83243942260742,3102021,16 Mart 2023 
+150,Köhnə tikili,8 / 9,65 m²,3,var,var,var,110000,AZN,"Xalqlar Dostluğu m.,Nizami r.",40.40027766320492,Bakı,49.84006762504578,3102031,21 Noyabr 2022 
+151,Köhnə tikili,7 / 9,40 m²,1,var,var,var,75000,AZN,"Xalqlar Dostluğu m.,Nizami r.",40.40027766320492,Bakı,49.84006762504578,3102037,21 Noyabr 2022 
+152,Köhnə tikili,4 / 9,65 m²,3,var,,,110000,AZN,"Nizami r.,8-ci kilometr q.",40.41932422288878,Bakı,49.92522239685059,3102038,28 Yanvar 2023 
+153,Köhnə tikili,4 / 9,80 m²,4,var,var,var,120000,AZN,"Yasamal r.,Yeni Yasamal q.",40.40014442276902,Bakı,49.79461376190185,3102070,16 Dekabr 2022 
+154,Köhnə tikili,3 / 5,110 m²,3,var,,,217000,AZN,"Dövlət Statistika Komitəsi ,İncəsənət və Mədəniyyət Un. ,Nizami m.,Yasamal r.",40.39816149998397,Bakı,49.84086155891422,3102076,21 Dekabr 2022 
+155,Yeni tikili,4 / 17,48 m²,2,yoxdur,,,123000,AZN,"TQDK ,Nərimanov r.",40.37620916175648,Bakı,49.81580107043555,3102088,16 Dekabr 2022 
+156,Yeni tikili,16 / 17,139.7 m²,3,yoxdur,,,190500,AZN,"Azərbaycan turizm institutu ,Təhsil Nazirliyi ,Nərimanov r.",40.40761426997893,Bakı,49.80840682983398,3102126,16 Dekabr 2022 
+157,Köhnə tikili,2 / 2,62 m²,3,var,,,129000,AZN,"Qış parkı ,Beşmərtəbə ,Nizami m.,Nəsimi r.",40.40328327684168,Bakı,49.85078707337379,3102132,16 Dekabr 2022 
+158,Yeni tikili,4 / 18,110 m²,2,var,var,yoxdur,199000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nəsimi r.",40.39816149998397,Bakı,49.84086155891422,3102151,31 Yanvar 2023 
+159,Yeni tikili,9 / 18,79 m²,3,yoxdur,,,168000,AZN,"Şərq bazarı ,Nərimanov r.",40.39989258617802,Bakı,49.83979431395813,3102180,16 Dekabr 2022 
+160,Yeni tikili,6 / 18,129.4 m²,2,var,var,yoxdur,210000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.38264366149726,Bakı,49.87209320068359,3102218,22 Fevral 2023 
+161,Yeni tikili,10 / 18,205 m²,4,var,,,700000,AZN,"Nəsimi bazarı ,Koala parkı ,Nərimanov r.",40.40554735588255,Bakı,49.87506508827209,3102266,16 Dekabr 2022 
+162,Yeni tikili,14 / 17,137 m²,3,var,,,162000,AZN,"Xətai r.,Əhmədli q.",40.35957022135379,Bakı,49.96686252229922,3102268,09 Dekabr 2022 
+163,Köhnə tikili,2 / 4,170 m²,5,var,,,280000,AZN,"Tibb Universiteti ,ASAN Xidmət №1 ,Nəsimi bazarı ,Nəsimi r.",40.37104456957248,Bakı,49.95549254560103,3102274,16 Dekabr 2022 
+164,Yeni tikili,6 / 18,105 m²,3,var,,,170000,AZN,"Neapol dairəsi ,Xətai r.,Əhmədli q.",40.38373468484185,Bakı,49.81024682521824,3102304,23 Fevral 2023 
+165,Yeni tikili,10 / 15,192 m²,3,var,,,395000,AZN,"Azərbaycan Dillər Universiteti ,Bakı Slavyan Universiteti ,Sirk ,28 May m.,Nəsimi r.",40.4007188626008,Bakı,49.84215974807739,3102314,16 Dekabr 2022 
+166,Köhnə tikili,6 / 9,70 m²,3,var,var,var,115000,AZN,"Xətai r.,Əhmədli q.",40.37041645360539,Bakı,49.95307445526123,3102329,18 Yanvar 2023 
+167,Yeni tikili,10 / 16,65 m²,3,yoxdur,,,95000,AZN,"Yasamal r.,Yeni Yasamal q.",40.3938692615085,Bakı,49.79525749206542,3102334,16 Dekabr 2022 
+168,Yeni tikili,10 / 18,120 m²,3,yoxdur,,,180000,AZN,Nizami r.,40.39298300258589,Bakı,49.95403544813546,3102382,16 Dekabr 2022 
+169,Köhnə tikili,4 / 5,45 m²,1,var,,,85000,AZN,"Cavanşir körpüsü ,Şah İsmayıl Xətai m.,Xətai r.",40.40328327684168,Bakı,49.85078707337379,3102384,15 Yanvar 2023 
+170,Köhnə tikili,5 / 9,60 m²,2,var,var,var,115000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.42501388353632,Bakı,49.91049531402914,3102401,16 Dekabr 2022 
+171,Yeni tikili,6 / 16,122 m²,3,yoxdur,,,180000,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.41746432888518,Bakı,49.81542516576017,3102426,16 Dekabr 2022 
+172,Yeni tikili,8 / 17,112.5 m²,3,yoxdur,,,197000,AZN,"Koala parkı ,Nəsimi bazarı ,Dostluq kinoteatrı ,Park Zorge ,Nəsimi r.",40.39193357401246,Bakı,49.84095054241946,3102429,16 Dekabr 2022 
+173,Yeni tikili,2 / 11,144 m²,4,yoxdur,,,225000,AZN,"Xalqlar Dostluğu m.,Xətai r.",40.39267548221,Bakı,49.9557342283339,3102452,16 Dekabr 2022 
+174,Yeni tikili,13 / 18,112 m²,3,var,,,170000,AZN,"Binəqədi r.,7-ci mikrorayon q.",40.42501388353632,Bakı,49.91049531402914,3102475,18 Yanvar 2023 
+175,Köhnə tikili,5 / 5,75 m²,3,var,var,var,188000,AZN,"Elmlər Akademiyası m.,Hüseyn Cavid parkı ,Yasamal r.",40.40606433283491,Bakı,49.86231650326251,3102512,16 Dekabr 2022 
+176,Yeni tikili,15 / 18,105 m²,3,var,var,var,194999,AZN,"Bakı Asiya Universiteti ,8 Noyabr m.,Nəsimi r.",40.38816806232006,Bakı,49.83243942260742,3102604,16 Dekabr 2022 
+177,Yeni tikili,9 / 11,116 m²,3,yoxdur,,,155999,AZN,"Memar Əcəmi m.,Nəsimi r.",40.36822884896801,Bakı,49.813362210989,3102608,16 Yanvar 2023 
+178,Yeni tikili,5 / 16,59 m²,2,,,,118000,AZN,"Tibb Universiteti ,Nəsimi r.",40.39580627100999,Bakı,49.82940584421158,3102622,16 Dekabr 2022 
+179,Yeni tikili,6 / 17,55 m²,2,yoxdur,,,143000,AZN,"Zoopark ,Dostluq kinoteatrı ,Nərimanov r.",40.39026819642278,Bakı,49.95772004127506,3102638,16 Dekabr 2022 
+180,Yeni tikili,7 / 16,90 m²,2,var,,,180000,AZN,"Zabitlər parkı ,Sirk ,Sevil Qazıyeva parkı ,Rusiya səfirliyi ,Nizami m.,Nəsimi r.",40.37738239264175,Bakı,49.82495069503784,3102639,16 Dekabr 2022 
+181,Köhnə tikili,3 / 5,55 m²,2,var,,,87000,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.4136237,Bakı,49.81127509999999,3102641,16 Dekabr 2022 
+182,Yeni tikili,8 / 14,58 m²,2,var,var,var,148000,AZN,"Nəriman Nərimanov parkı ,Nəriman Nərimanov m.,Nərimanov r.",40.38930339224178,Bakı,49.85948536585312,3102652,16 Dekabr 2022 
+183,Yeni tikili,16 / 18,200 m²,4,var,var,var,375000,AZN,"Nəsimi bazarı ,Nəsimi r.",40.38855213843042,Bakı,49.87120270729065,3102675,15 Mart 2023 
+184,Köhnə tikili,4 / 5,50 m²,2,var,,,145000,AZN,"Texniki Universiteti ,Memarlıq və İnşaat Universiteti ,Hüseyn Cavid parkı ,Space TV ,Elmlər Akademiyası m.,Yasamal r.",40.40210780478213,Bakı,49.85758781433109,3102678,16 Dekabr 2022 
+185,Yeni tikili,16 / 18,107 m²,2,var,var,var,240000,AZN,"Yasamal r.,Yasamal q.",40.39336516184337,Bakı,49.79300022125244,3102688,05 Yanvar 2023 
+186,Yeni tikili,17 / 18,98 m²,3,yoxdur,,,134900,AZN,"Neftçilər m.,Nizami r.,8-ci kilometr q.",40.4107382,Bakı,49.9384708,3102693,16 Dekabr 2022 
+187,Yeni tikili,8 / 18,151 m²,4,var,,,275000,AZN,"İnşaatçılar m.,Yasamal r.",40.42501388353632,Bakı,49.91049531402914,3102783,18 Yanvar 2023 
+188,Yeni tikili,9 / 19,48 m²,2,yoxdur,,,170000,AZN,"Bayıl parkı ,Səbail r.,Bayıl q.",40.40210780478213,Bakı,49.85758781433109,3102808,23 Mart 2023 
+189,Yeni tikili,12 / 16,181.2 m²,4,yoxdur,,,242000,AZN,"Nəriman Nərimanov m.,Nərimanov r.",40.40165027405231,Bakı,49.86080646514893,3102813,16 Dekabr 2022 
+190,Yeni tikili,16 / 17,104 m²,2,var,,,225000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nərimanov r.",40.40172428389596,Bakı,49.83203149475025,3102815,27 Yanvar 2023 
+191,Yeni tikili,12 / 18,90 m²,2,var,,,175000,AZN,"20 Yanvar m.,Nizami r.",40.36942330420567,Bakı,49.82101321220402,3102819,16 Dekabr 2022 
+192,Yeni tikili,6 / 15,81 m²,2,var,var,var,120000,AZN,"Yasamal r.,Yeni Yasamal q.",40.39530579257519,Bakı,49.78756741907415,3102825,16 Dekabr 2022 
+193,Yeni tikili,2 / 11,83 m²,3,var,,,77000,AZN,Xırdalan,40.47117619454839,Xırdalan,49.74493722275383,3102830,16 Yanvar 2023 
+194,Yeni tikili,6 / 18,99.5 m²,3,yoxdur,,,220000,AZN,"Respublika stadionu ,Gənclik m.,Azərbaycan turizm institutu ,Nərimanov r.",40.4007188626008,Bakı,49.84215974807739,3102886,17 Noyabr 2022 
+195,Yeni tikili,9 / 16,128 m²,3,var,,,270000,AZN,"Tibb Universiteti ,ASAN Xidmət №1 ,Nəsimi r.",40.39203732471822,Bakı,49.84165549278259,3102890,16 Dekabr 2022 
+196,Yeni tikili,12 / 18,52 m²,1,yoxdur,,,130000,AZN,"Azərbaycan turizm institutu ,Nərimanov r.",40.41932422288878,Bakı,49.92522239685059,3102893,10 Mart 2023 
+197,Yeni tikili,5 / 17,75 m²,2,yoxdur,,,125000,AZN,"Təhsil Nazirliyi ,Azərbaycan turizm institutu ,Nərimanov r.",40.39550566772503,Bakı,49.86070682434524,3102911,16 Dekabr 2022 
+198,Yeni tikili,7 / 17,109 m²,2,var,,,185000,AZN,"20 Yanvar m.,Memar Əcəmi m.,Nəsimi r.,1-ci mikrorayon q.",40.40811518836301,Bakı,49.80914449720661,3102932,16 Dekabr 2022 
+199,Köhnə tikili,2 / 8,90 m²,3,,,,250000,AZN,"İqsadiyyat Universiteti ,Axundov bağı ,M.Ə.Sabir parkı ,Mərkəzi Univermaq ,Dövlət İdarəçilik Akademiyası ,İçəri Şəhər m.,Qubernator parkı ,Səbail r.",40.3769019868296,Bakı,49.84521518028816,3102956,16 Dekabr 2022 
+200,Köhnə tikili,3 / 4,110 m²,4,var,,,380000,AZN,"Azərbaycan kinoteatrı ,İçəri Şəhər ,Fontanlar bağı ,M.Ə.Sabir parkı ,Azneft meydanı ,İçəri Şəhər m.,Səbail r.",40.37104456957248,Bakı,49.95549254560103,3102982,16 Dekabr 2022 
+201,Yeni tikili,17 / 22,80 m²,2,var,var,var,160000,AZN,"İnşaatçılar m.,Yasamal r.",40.38960322000366,Bakı,49.80243658050631,3102985,14 Mart 2023 
+202,Yeni tikili,10 / 17,164 m²,4,var,var,yoxdur,330000,AZN,"Səbail r.,Bayıl q.",40.34212965151811,Bakı,49.8366853719971,3103019,07 Fevral 2023 
+203,Yeni tikili,7 / 18,136 m²,4,var,var,var,185000,AZN,"Yasamal r.,Yeni Yasamal q.",40.39189181087041,Bakı,49.78916351318359,3103033,16 Dekabr 2022 
+204,Yeni tikili,13 / 14,205 m²,4,var,var,var,550000,AZN,"8 Noyabr m.,Nəsimi r.",40.38855213843042,Bakı,49.87120270729065,3103034,16 Dekabr 2022 
+205,Yeni tikili,3 / 18,45 m²,2,var,var,var,102000,AZN,"20 Yanvar m.,Yasamal r.",40.39769745269385,Bakı,49.80573454819341,3103035,16 Dekabr 2022 
+206,Yeni tikili,2 / 17,70 m²,2,var,var,var,150000,AZN,"Nəriman Nərimanov parkı ,Nəriman Nərimanov m.,Nərimanov r.",40.4053327515815,Bakı,49.81380344106,3103037,16 Dekabr 2022 
+207,Yeni tikili,18 / 19,78 m²,2,yoxdur,,,168000,AZN,"Nəsimi bazarı ,Nəsimi r.",40.40210780478213,Bakı,49.85758781433109,3103064,30 Yanvar 2023 
+208,Yeni tikili,14 / 17,95 m²,3,yoxdur,,,229000,AZN,"Nəsimi bazarı ,Nəsimi r.",40.38218599850386,Bakı,49.81046676635742,3103067,02 Dekabr 2022 
+209,Köhnə tikili,5 / 7,97 m²,3,var,,,230000,AZN,"Beşmərtəbə ,Mərkəzi Univermaq ,Nizami m.,Nəsimi r.",40.38855213843042,Bakı,49.87120270729065,3103101,16 Dekabr 2022 
+210,Yeni tikili,2 / 4,126 m²,4,yoxdur,,,129900,AZN,"Binəqədi r.,9-cu mikrorayon q.",40.39045008382347,Bakı,49.830508675731,3103126,22 Dekabr 2022 
+211,Yeni tikili,15 / 15,85 m²,2,,,,105000,AZN,"Yasamal r.,Yeni Yasamal q.",40.39414959485713,Bakı,49.7993946075439,3103145,16 Dekabr 2022 
+212,Yeni tikili,5 / 18,115 m²,2,var,,,240000,AZN,"Nəsimi bazarı ,TQDK ,Nəsimi r.",40.38525881895442,Bakı,49.85801696777344,3103176,16 Dekabr 2022 
+213,Yeni tikili,8 / 11,135 m²,3,var,,,117000,AZN,Yasamal r.,40.39414959485713,Bakı,49.7993946075439,3103182,16 Dekabr 2022 
+214,Yeni tikili,6 / 14,125 m²,3,var,var,var,225000,AZN,"Qara Qarayev m.,Nizami r.,8-ci kilometr q.",40.40828416527557,Bakı,49.87069845199589,3103198,16 Dekabr 2022 
+215,Yeni tikili,9 / 14,51 m²,2,yoxdur,,,115000,AZN,"Qara Qarayev m.,Nizami r.",40.38873191798482,Bakı,49.95395421981815,3103203,16 Dekabr 2022 
+216,Yeni tikili,14 / 20,110 m²,3,var,,,175000,AZN,Binəqədi r.,40.37104456957248,Bakı,49.95549254560103,3103217,17 Noyabr 2022 
+217,Yeni tikili,7 / 17,210 m²,4,yoxdur,,,298000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.40328327684168,Bakı,49.85078707337379,3103229,23 Yanvar 2023 
+218,Köhnə tikili,4 / 9,80 m²,3,var,,,177000,AZN,"Sovetski ,Nərimanov heykəli ,Yasamal r.",40.40210780478213,Bakı,49.85758781433109,3103263,16 Dekabr 2022 
+219,Yeni tikili,6 / 9,300 m²,5,var,,,1000000,AZN,"Zoopark ,Nərimanov r.",40.39414959485713,Bakı,49.7993946075439,3103265,16 Dekabr 2022 
+220,Yeni tikili,10 / 16,270 m²,5,var,,,510000,AZN,"Zoopark ,Dostluq kinoteatrı ,Nərimanov r.",40.37738239264175,Bakı,49.82495069503784,3103273,18 Mart 2023 
+221,Köhnə tikili,4 / 5,50 m²,2,var,,,91000,AZN,"20 Yanvar m.,Nəsimi r.,1-ci mikrorayon q.",40.38274990424748,Bakı,49.8084390163422,3103311,16 Dekabr 2022 
+222,Yeni tikili,4 / 16,282 m²,4,var,var,var,518000,AZN,"Neftçi bazası ,TQDK ,ASAN Xidmət №1 ,Nərimanov r.",40.42501388353632,Bakı,49.91049531402914,3103317,Bugün 12:00 
+223,Yeni tikili,17 / 18,63 m²,2,var,,,94000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.39205366748811,Bakı,49.84065234661102,3103323,16 Dekabr 2022 
+224,Köhnə tikili,7 / 9,90 m²,3,var,,,130000,AZN,"Memar Əcəmi m.,Binəqədi r.",40.42463128324992,Bakı,49.82827342647775,3103383,27 Noyabr 2022 
+225,Yeni tikili,16 / 18,67 m²,2,yoxdur,,,128000,AZN,"Səbail r.,Badamdar q.",40.40165844427115,Bakı,49.86887991428379,3103389,30 Noyabr 2022 
+226,Yeni tikili,6 / 15,194 m²,3,var,var,var,450000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.3843596,Bakı,49.87381000000005,3103425,27 Yanvar 2023 
+227,Köhnə tikili,4 / 5,80 m²,3,,,,110000,AZN,"Xalqlar Dostluğu m.,Neftçilər m.,Nizami r.,8-ci kilometr q.",40.40122315893532,Bakı,49.94704223405884,3103453,16 Dekabr 2022 
+228,Yeni tikili,8 / 10,135 m²,3,var,,,117000,AZN,"Yasamal r.,Yeni Yasamal q.",40.39130673603033,Bakı,49.78650276184081,3103459,16 Dekabr 2022 
+229,Köhnə tikili,2 / 5,57 m²,2,var,,,117000,AZN,"Texniki Universiteti ,Space TV ,Hüseyn Cavid parkı ,Nərimanov heykəli ,Yasamal r.",40.36882617357788,Bakı,49.81846233110586,3103471,16 Dekabr 2022 
+230,Köhnə tikili,4 / 9,68 m²,3,var,var,var,115000,AZN,"Nizami r.,8-ci kilometr q.",40.41167961732732,Bakı,49.94238121798746,3103478,06 Yanvar 2023 
+231,Yeni tikili,10 / 15,114 m²,3,yoxdur,,,220000,AZN,"Memar Əcəmi m.,Nəsimi r.",40.36822884896801,Bakı,49.813362210989,3103506,16 Dekabr 2022 
+232,Yeni tikili,4 / 19,178 m²,4,var,var,var,370000,AZN,"Zabitlər parkı ,Sirk ,Rusiya səfirliyi ,Azərbaycan Dillər Universiteti ,Nəsimi r.",40.38493849360124,Bakı,49.8366160926514,3103513,16 Dekabr 2022 
+233,Yeni tikili,9 / 17,148 m²,4,var,,,310000,AZN,"Koala parkı ,Nəsimi bazarı ,Dostluq kinoteatrı ,Park Zorge ,Nəsimi r.",40.39219505825798,Bakı,49.8406501350098,3103527,16 Dekabr 2022 
+234,Yeni tikili,4 / 14,82 m²,3,var,,,168000,AZN,"Botanika bağı ,Səbail r.,Badamdar q.",40.38264366149726,Bakı,49.87209320068359,3103535,16 Dekabr 2022 
+235,Yeni tikili,7 / 18,58 m²,2,var,var,var,130000,AZN,"20 Yanvar m.,Yasamal r.,Yasamal q.",40.40233245930769,Bakı,49.80656929748231,3103552,16 Dekabr 2022 
+236,Köhnə tikili,1 / 5,75 m²,3,var,,,115000,AZN,Binəqədi r.,40.39489418492813,Bakı,49.86098617315296,3103563,16 Yanvar 2023 
+237,Yeni tikili,3 / 7,71 m²,3,var,,,74000,AZN,"Suraxanı r.,Hövsan q.",40.3810344064398,Bakı,50.07262311324462,3103604,16 Dekabr 2022 
+238,Köhnə tikili,1 / 5,75 m²,4,var,,,116000,AZN,"Nəsimi m.,Zərifə Əliyeva adına park ,Binəqədi r.,6-cı mikrorayon q.",40.4245949988932,Bakı,49.82307387087196,3103605,16 Dekabr 2022 
+239,Yeni tikili,3 / 5,65 m²,2,var,,,85000,AZN,Xırdalan,40.3863886681378,Xırdalan,49.80817391355895,3103618,16 Dekabr 2022 
+240,Yeni tikili,16 / 17,100 m²,2,,,,246000,AZN,"TQDK ,Nəsimi r.",40.39917065662321,Bakı,49.84247433739159,3103621,16 Dekabr 2022 
+241,Yeni tikili,11 / 17,185 m²,4,var,,,390000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.40284311551182,Bakı,49.87063407897949,3103635,16 Dekabr 2022 
+242,Yeni tikili,3 / 17,120 m²,4,yoxdur,,,176000,AZN,"Həzi Aslanov m.,Xətai r.",40.37304943756074,Bakı,49.95350057294625,3103663,16 Dekabr 2022 
+243,Yeni tikili,8 / 11,38 m²,2,var,,,43800,AZN,Xırdalan,40.45511190000001,Xırdalan,49.74459389999993,3103697,17 Dekabr 2022 
+244,Köhnə tikili,2 / 2,70 m²,3,,,,400000,AZN,"Fontanlar bağı ,Azərbaycan kinoteatrı ,Xalça Muzeyi ,Mərkəzi Univermaq ,M.Ə.Sabir parkı ,Sahil m.,Səbail r.",40.3706289775018,Bakı,49.83909130096436,3103741,17 Dekabr 2022 
+245,Yeni tikili,13 / 17,105 m²,3,var,,,160000,AZN,"İnşaatçılar m.,Yasamal r.,Yeni Yasamal q.",40.39027107445843,Bakı,49.79766044226009,3103791,22 Noyabr 2022 
+246,Yeni tikili,9 / 16,93 m²,2,var,var,var,147000,AZN,"Zərifə Əliyeva adına park ,Binəqədi r.,9-cu mikrorayon q.",40.38264366149726,Bakı,49.80834245681766,3103817,17 Dekabr 2022 
+247,Yeni tikili,3 / 16,55.3 m²,1,yoxdur,,,99500,AZN,"Şərq bazarı ,28 May m.,Nərimanov r.",40.38930339224178,Bakı,49.85948536585312,3103818,21 Noyabr 2022 
+248,Yeni tikili,3 / 20,112 m²,3,var,,,150000,AZN,"Sabunçu r.,Bakıxanov q.",40.38873191798482,Bakı,49.95395421981815,3103882,09 Dekabr 2022 
+249,Köhnə tikili,4 / 9,80 m²,3,var,var,var,180000,AZN,"Nərimanov heykəli ,Sovetski ,Axundov bağı ,İçəri Şəhər m.,Yasamal r.",40.37024250177031,Bakı,49.97394200996779,3103921,02 Fevral 2023 
+250,Yeni tikili,6 / 16,85 m²,3,yoxdur,,,134000,AZN,"Binəqədi r.,9-cu mikrorayon q.",40.41874564185036,Bakı,49.81003604867178,3103942,17 Dekabr 2022 
+251,Yeni tikili,17 / 18,63 m²,2,var,,,93000,AZN,"Binəqədi r.,8-ci mikrorayon q.",40.40328327684168,Bakı,49.85078707337379,3103949,17 Dekabr 2022 
+252,Yeni tikili,9 / 17,200 m²,4,var,,,357000,AZN,"Nizami m.,Beşmərtəbə ,Yasamal r.",40.39203732471822,Bakı,49.84165549278259,3103982,07 Dekabr 2022 
+253,Yeni tikili,5 / 20,76 m²,2,var,,,145000,AZN,"Xətai r.,Əhmədli q.",40.3679082827185,Bakı,49.96067591546736,3103997,17 Dekabr 2022 
+254,Yeni tikili,3 / 16,160 m²,4,var,var,var,352000,AZN,"28 May m.,Neft Akademiyası ,Bakı Musiqi Akademiyası ,Bakı Slavyan Universiteti ,Nəsimi r.",40.39203732471822,Bakı,49.84165549278259,3103999,17 Dekabr 2022 
+255,Yeni tikili,15 / 20,114 m²,3,var,var,yoxdur,215000,AZN,"ASAN Xidmət №3 ,Yasamal bazarı ,Elmlər Akademiyası m.,Yasamal r.",40.38257828125999,Bakı,49.80385780334476,3104036,17 Dekabr 2022 
+256,Yeni tikili,10 / 19,125 m²,4,yoxdur,var,var,505000,AZN,"Hüseyn Cavid parkı ,Elmlər Akademiyası m.,Yasamal r.,Yasamal q.",40.37849802028471,Bakı,49.87448841333393,3104038,17 Fevral 2023 
+257,Yeni tikili,4 / 20,158 m²,3,var,,,395000,AZN,"Sovetski ,Texniki Universiteti ,Nərimanov heykəli ,Hüseyn Cavid parkı ,Yasamal r.",40.37002187499623,Bakı,49.8208043050219,3104062,17 Dekabr 2022 
+258,Yeni tikili,15 / 22,75 m²,2,var,var,var,125000,AZN,"İnşaatçılar m.,Yasamal r.,Yeni Yasamal q.",40.39197603929571,Bakı,49.80684041976929,3104066,17 Dekabr 2022 
+259,Yeni tikili,7 / 18,102 m²,3,var,,,255000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.39203732471822,Bakı,49.84165549278259,3104120,17 Dekabr 2022 
+260,Köhnə tikili,5 / 5,60 m²,3,var,,,135000,AZN,"Elmlər Akademiyası m.,Hüseyn Cavid parkı ,Yasamal r.",40.39205366748811,Bakı,49.84065234661102,3104138,17 Dekabr 2022 
+261,Yeni tikili,3 / 16,97 m²,3,var,,,130000,AZN,"Həzi Aslanov m.,Xətai r.,Həzi Aslanov q.",40.37067802138273,Bakı,49.95311737060547,3104152,17 Dekabr 2022 
+262,Yeni tikili,10 / 18,123 m²,3,var,var,var,275000,AZN,"Tibb Universiteti ,ASAN Xidmət №1 ,Nəsimi r.",40.40606433283491,Bakı,49.86231650326251,3104193,09 Fevral 2023 
+263,Yeni tikili,3 / 16,90 m²,2,yoxdur,,,198000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.42501388353632,Bakı,49.91049531402914,3104212,08 Fevral 2023 
+264,Yeni tikili,12 / 18,86 m²,3,var,var,var,205000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nəsimi r.",40.39967961426903,Bakı,49.8366160926514,3104223,13 Fevral 2023 
+265,Yeni tikili,15 / 20,114 m²,3,var,var,yoxdur,215000,AZN,"ASAN Xidmət №3 ,Yasamal bazarı ,Elmlər Akademiyası m.,Yasamal r.,Yasamal q.",40.37942319692406,Bakı,49.80887754568217,3104228,17 Dekabr 2022 
+266,Yeni tikili,14 / 19,84 m²,2,var,,,165000,AZN,"İnşaatçılar m.,Yasamal r.",40.38699116952946,Bakı,49.80308333388484,3104255,17 Dekabr 2022 
+267,Yeni tikili,7 / 18,115 m²,3,var,,,198000,AZN,"Yasamal r.,Yeni Yasamal q.",40.37024250177031,Bakı,49.97394200996779,3104266,23 Mart 2023 
+268,Yeni tikili,17 / 19,61 m²,2,yoxdur,,,143000,AZN,"İnşaatçılar m.,Yasamal r.",40.39295828043993,Bakı,49.80856696091314,3104307,17 Dekabr 2022 
+269,Köhnə tikili,2 / 9,75 m²,2,var,var,var,97000,AZN,Xətai r.,40.37041645360539,Bakı,49.95307445526123,3104329,17 Dekabr 2022 
+270,Yeni tikili,12 / 18,55 m²,2,var,,,135000,AZN,"TQDK ,Neftçi bazası ,ASAN Xidmət №1 ,Nərimanov r.",40.42527440160644,Bakı,49.85134363174438,3104343,17 Dekabr 2022 
+271,Yeni tikili,10 / 20,160 m²,3,,,,430000,AZN,"Elmlər Akademiyası m.,Hüseyn Cavid parkı ,Yasamal r.",40.37492835547528,Bakı,49.81511235237122,3104354,17 Dekabr 2022 
+272,Köhnə tikili,2 / 8,100 m²,3,var,,,244000,AZN,"İqsadiyyat Universiteti ,Axundov bağı ,M.Ə.Sabir parkı ,Dövlət İdarəçilik Akademiyası ,İçəri Şəhər m.,Mərkəzi Univermaq ,Qubernator parkı ,Prezident parkı ,Səbail r.",40.36909214442979,Bakı,49.83130199617778,3104359,17 Dekabr 2022 
+273,Köhnə tikili,1 / 2,40 m²,2,var,,,90000,AZN,"Sabunçu r.,Bakıxanov q.",40.43235987048206,Bakı,49.95012226023199,3104362,17 Dekabr 2022 
+274,Yeni tikili,4 / 17,91 m²,2,var,,,210000,AZN,"Hüseyn Cavid parkı ,Elmlər Akademiyası m.,Yasamal r.",40.37396671665789,Bakı,49.82045145003571,3104379,17 Dekabr 2022 
+275,Köhnə tikili,4 / 5,62 m²,3,var,,,85000,AZN,"Həzi Aslanov m.,Xətai r.,Əhmədli q.",40.37240520907643,Bakı,49.95432180192335,3104393,17 Dekabr 2022 
+276,Yeni tikili,14 / 17,100 m²,3,yoxdur,,,149000,AZN,"Xətai r.,Həzi Aslanov q.",40.37818602491442,Bakı,49.92375846266631,3104425,17 Dekabr 2022 
+277,Yeni tikili,12 / 13,130 m²,4,var,var,var,310000,AZN,"Yasamal r.,Yasamal q.",40.39695677564799,Bakı,49.81467198882463,3104450,17 Dekabr 2022 
+278,Yeni tikili,6 / 12,200 m²,4,var,,,500000,AZN,"Beşmərtəbə ,Nizami m.,Yasamal r.",40.40554735588255,Bakı,49.87506508827209,3104454,17 Dekabr 2022 
+279,Yeni tikili,10 / 19,130 m²,3,var,var,var,320000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.3843596,Bakı,49.87381000000005,3104465,09 Mart 2023 
+280,Köhnə tikili,5 / 9,100 m²,3,var,var,var,195000,AZN,"Nizami m.,Yasamal r.",40.38047947297675,Bakı,49.82821980217827,3104490,17 Dekabr 2022 
+281,Yeni tikili,15 / 16,140 m²,4,var,,,223000,AZN,"Təhsil Nazirliyi ,Nərimanov r.",40.39205366748811,Bakı,49.84065234661102,3104491,23 Noyabr 2022 
+282,Köhnə tikili,3 / 6,50 m²,2,var,,,155000,AZN,"Gənclik m.,Respublika stadionu ,Nərimanov r.",40.38873191798482,Bakı,49.95395421981815,3104527,17 Dekabr 2022 
+283,Köhnə tikili,5 / 5,65 m²,3,var,,,118000,AZN,"ASAN Xidmət №3 ,Yasamal r.,Yasamal q.",40.37644149282421,Bakı,49.80559623932769,3104540,09 Dekabr 2022 
+284,Köhnə tikili,4 / 9,40 m²,2,var,var,var,64000,AZN,Xətai r.,40.36397441092321,Bakı,49.95058835432347,3104541,23 Yanvar 2023 
+285,Yeni tikili,8 / 17,145 m²,3,var,,,262000,AZN,"Qara Qarayev m.,Nizami r.",40.37104456957248,Bakı,49.95549254560103,3104545,27 Dekabr 2022 
+286,Yeni tikili,13 / 22,62 m²,2,yoxdur,,,93000,AZN,"Zərifə Əliyeva adına park ,Binəqədi r.,9-cu mikrorayon q.",40.38816806232006,Bakı,49.83243942260742,3104547,23 Yanvar 2023 
+287,Köhnə tikili,2 / 9,80 m²,3,var,,,122000,AZN,Nizami r.,40.39989258617802,Bakı,49.83979431395813,3104578,23 Yanvar 2023 
+288,Köhnə tikili,3 / 3,57 m²,3,var,,,56000,AZN,"Suraxanı r.,Yeni Suraxanı q.",40.431,Bakı,50.035,3104579,17 Dekabr 2022 
+289,Köhnə tikili,8 / 9,100 m²,4,var,var,var,200000,AZN,"Gənclik m.,Respublika stadionu ,Nərimanov r.",40.39270174045908,Bakı,49.83329557619629,3104620,17 Dekabr 2022 
+290,Yeni tikili,14 / 17,100 m²,3,var,,,149000,AZN,"Xətai r.,Həzi Aslanov q.",40.39298300258589,Bakı,49.95403544813546,3104631,17 Dekabr 2022 
+291,Köhnə tikili,8 / 9,85 m²,4,,,,155000,AZN,"Neapol dairəsi ,Əhmədli m.,Xətai r.,Əhmədli q.",40.38125291181027,Bakı,49.95896548413091,3104640,05 Fevral 2023 
+292,Yeni tikili,3 / 13,105 m²,2,var,var,var,163000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.4250308860094,Bakı,49.83698592852785,3104669,29 Noyabr 2022 
+293,Yeni tikili,3 / 8,150 m²,3,yoxdur,,,270000,AZN,"TQDK ,Neftçi bazası ,Nəsimi r.",40.38264366149726,Bakı,49.87209320068359,3104698,17 Dekabr 2022 
+294,Yeni tikili,8 / 10,93 m²,3,var,,,199000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.38449580544514,Bakı,49.87507838560397,3104702,17 Dekabr 2022 
+295,Köhnə tikili,2 / 5,63 m²,3,var,,,137000,AZN,"Nəriman Nərimanov parkı ,Rəssamlıq Akademiyası ,Nəriman Nərimanov m.,Nərimanov r.",40.37371049868611,Bakı,49.83537912368774,3104713,17 Dekabr 2022 
+296,Köhnə tikili,9 / 9,110 m²,4,var,,,132000,AZN,"Suraxanı r.,Massiv A q.",40.39989258617802,Bakı,49.83979431395813,3104751,24 Mart 2023 
+297,Yeni tikili,12 / 17,150 m²,3,var,var,var,194000,AZN,"Yasamal r.,Yeni Yasamal q.",40.40328327684168,Bakı,49.85078707337379,3104767,17 Dekabr 2022 
+298,Köhnə tikili,3 / 5,48 m²,2,var,,,95000,AZN,"Nəsimi r.,3-cü mikrorayon q.",40.40952590477563,Bakı,49.84445571899418,3104775,17 Dekabr 2022 
+299,Yeni tikili,6 / 16,78 m²,2,var,var,var,145000,AZN,"Bakı Asiya Universiteti ,8 Noyabr m.,Nəsimi r.",40.40198364414913,Bakı,49.81884914013675,3104778,17 Dekabr 2022 
+300,Yeni tikili,12 / 19,98 m²,3,var,var,var,168000,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.38274990424748,Bakı,49.8084390163422,3104804,17 Dekabr 2022 
+301,Yeni tikili,9 / 17,140 m²,3,var,var,var,224000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nəsimi r.",40.40606433283491,Bakı,49.86231650326251,3104809,17 Dekabr 2022 
+302,Köhnə tikili,7 / 9,90 m²,4,var,var,var,133333,AZN,"Yasamal r.,Yeni Yasamal q.",40.39120792393698,Bakı,49.78900909423828,3104841,17 Dekabr 2022 
+303,Yeni tikili,11 / 16,210 m²,4,yoxdur,,,325000,AZN,"İncəsənət və Mədəniyyət Un. ,Elmlər Akademiyası m.,Yasamal r.",40.3800205943152,Bakı,49.81581697188039,3104874,17 Dekabr 2022 
+304,Yeni tikili,2 / 9,62 m²,2,var,var,var,81000,AZN,Xırdalan,40.45511190000001,Xırdalan,49.74459389999993,3104891,17 Dekabr 2022 
+305,Yeni tikili,8 / 13,141 m²,3,var,,,234500,AZN,Nizami r.,40.37104456957248,Bakı,49.95549254560103,3104911,12 Dekabr 2022 
+306,Yeni tikili,19 / 19,90 m²,3,yoxdur,,,153000,AZN,Xətai r.,40.4053327515815,Bakı,49.81380344106,3104915,17 Dekabr 2022 
+307,Köhnə tikili,9 / 9,80 m²,4,var,,,118000,AZN,"Neftçilər m.,Nizami r.",40.4053327515815,Bakı,49.81380344106,3104929,17 Dekabr 2022 
+308,Yeni tikili,8 / 16,113 m²,3,yoxdur,,,197000,AZN,"Nəsimi bazarı ,Park Zorge ,Koala parkı ,Tibb Universiteti ,Nəsimi r.",40.39989258617802,Bakı,49.83979431395813,3104932,17 Dekabr 2022 
+309,Yeni tikili,16 / 16,113 m²,3,var,,,225000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.4053327515815,Bakı,49.81380344106,3104934,17 Dekabr 2022 
+310,Köhnə tikili,9 / 9,66 m²,2,var,,,94500,AZN,"Neftçi bazası ,TQDK ,Nərimanov r.",40.39045008382347,Bakı,49.830508675731,3104935,17 Dekabr 2022 
+311,Yeni tikili,19 / 19,90 m²,3,yoxdur,,,170000,AZN,"Xətai r.,Həzi Aslanov q.",40.39228246585045,Bakı,49.84178960323334,3104949,17 Dekabr 2022 
+312,Yeni tikili,16 / 17,55 m²,2,var,,,124900,AZN,"Təhsil Nazirliyi ,Nərimanov r.",40.4053327515815,Bakı,49.81380344106,3104950,17 Dekabr 2022 
+313,Yeni tikili,4 / 17,48 m²,2,yoxdur,,,123000,AZN,"TQDK ,Nərimanov r.",40.37104456957248,Bakı,49.95549254560103,3104970,17 Dekabr 2022 
+314,Yeni tikili,3 / 13,62 m²,2,yoxdur,,,139000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.37371049868611,Bakı,49.83537912368774,3104971,19 Yanvar 2023 
+315,Yeni tikili,5 / 21,67.4 m²,2,yoxdur,,,109500,AZN,"Nəriman Nərimanov m.,Nərimanov r.",40.39298300258589,Bakı,49.95403544813546,3104995,17 Dekabr 2022 
+316,Yeni tikili,12 / 17,78 m²,2,var,var,var,105000,AZN,"Yasamal r.,Yeni Yasamal q.",40.37520939853896,Bakı,49.84099855135474,3105037,17 Dekabr 2022 
+317,Yeni tikili,4 / 18,97 m²,2,yoxdur,,,138000,AZN,"Bakı Dövlət Universiteti ,Elmlər Akademiyası m.,Yasamal r.",40.38930339224178,Bakı,49.85948536585312,3105067,17 Noyabr 2022 
+318,Yeni tikili,2 / 16,54 m²,2,var,,,105000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,7-ci mikrorayon q.",40.42585428106248,Bakı,49.84174132347107,3105073,25 Noyabr 2022 
+319,Köhnə tikili,4 / 9,80 m²,3,var,,,180000,AZN,"Nərimanov heykəli ,Sovetski ,Axundov bağı ,İçəri Şəhər m.,Yasamal r.",40.39352858614141,Bakı,49.8204231262207,3105119,21 Dekabr 2022 
+320,Yeni tikili,4 / 14,105 m²,3,var,,,175000,AZN,"Zərifə Əliyeva adına park ,Nəsimi m.,Binəqədi r.,6-cı mikrorayon q.",40.39045008382347,Bakı,49.830508675731,3105133,17 Dekabr 2022 
+321,Yeni tikili,16 / 19,95 m²,2,var,var,var,145000,AZN,Nizami r.,40.39989258617802,Bakı,49.83979431395813,3105139,17 Dekabr 2022 
+322,Köhnə tikili,3 / 5,80 m²,3,var,,,135000,AZN,"Həzi Aslanov m.,Xətai r.",40.39989258617802,Bakı,49.83979431395813,3105161,20 Fevral 2023 
+323,Yeni tikili,11 / 16,205.4 m²,4,yoxdur,,,410000,AZN,"İncəsənət və Mədəniyyət Un. ,Elmlər Akademiyası m.,Yasamal r.",40.3799156640159,Bakı,49.81577673874517,3105165,17 Dekabr 2022 
+324,Köhnə tikili,2 / 9,60 m²,2,var,,,112000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.39414959485713,Bakı,49.7993946075439,3105186,17 Fevral 2023 
+325,Yeni tikili,14 / 21,155 m²,3,,,,225000,AZN,"Yasamal bazarı ,İnşaatçılar m.,Yasamal r.,Yasamal q.",40.3839039,Bakı,49.79972640000005,3105190,17 Dekabr 2022 
+326,Köhnə tikili,1 / 9,60 m²,2,var,,,110000,AZN,"Həzi Aslanov m.,Xətai r.,Həzi Aslanov q.",40.41932422288878,Bakı,49.92522239685059,3105219,18 Mart 2023 
+327,Yeni tikili,18 / 20,80 m²,3,var,,,142000,AZN,"Əhmədli m.,Xətai r.",40.39298300258589,Bakı,49.95403544813546,3105224,17 Yanvar 2023 
+328,Köhnə tikili,5 / 5,90 m²,3,,,,103500,AZN,"Xalqlar Dostluğu m.,Nizami r.,8-ci kilometr q.",40.4007647013091,Bakı,49.95284884852905,3105225,08 Dekabr 2022 
+329,Köhnə tikili,4 / 5,35 m²,1,var,,,85000,AZN,"Space TV ,Texniki Universiteti ,Yasamal r.",40.36659307478377,Bakı,49.8185345222652,3105250,17 Dekabr 2022 
+330,Yeni tikili,12 / 17,98 m²,3,yoxdur,,,222000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.39270174045908,Bakı,49.83329557619629,3105266,08 Dekabr 2022 
+331,Yeni tikili,4 / 17,162 m²,3,var,,,453000,AZN,"Nərimanov heykəli ,Sovetski ,Space TV ,Yasamal r.",40.36764599088213,Bakı,49.82193836264403,3105275,17 Dekabr 2022 
+332,Yeni tikili,15 / 17,65 m²,2,var,var,var,87900,AZN,"Suraxanı r.,Yeni Günəşli q.",40.38816806232006,Bakı,49.83243942260742,3105276,17 Dekabr 2022 
+333,Yeni tikili,6 / 16,41 m²,2,yoxdur,,,57000,AZN,Xırdalan,40.45373781772926,Xırdalan,49.73256386842422,3105321,17 Dekabr 2022 
+334,Köhnə tikili,4 / 5,40 m²,2,var,,,85000,AZN,"20 Yanvar m.,Nəsimi r.,1-ci mikrorayon q.",40.40469713269002,Bakı,49.8076376964548,3105332,17 Dekabr 2022 
+335,Köhnə tikili,1 / 9,65 m²,2,var,var,var,95000,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.38042069783201,Bakı,49.80892181396484,3105348,17 Dekabr 2022 
+336,Yeni tikili,6 / 7,85 m²,2,yoxdur,,,263000,AZN,"Ağ şəhər ,ASAN Xidmət №2 ,Xətai r.,Ağ şəhər q.",40.3813596,Bakı,49.8843435,3105370,17 Dekabr 2022 
+337,Köhnə tikili,1 / 3,80 m²,3,var,,,165000,AZN,"Dövlət Statistika Komitəsi ,İncəsənət və Mədəniyyət Un. ,Yasamal r.",40.38281627778939,Bakı,49.82051056589944,3105382,13 Mart 2023 
+338,Yeni tikili,19 / 20,45 m²,2,var,,,95000,AZN,"20 Yanvar m.,Yasamal r.",40.39777801160946,Bakı,49.80848493909492,3105387,17 Dekabr 2022 
+339,Yeni tikili,6 / 19,80 m²,3,yoxdur,,,138000,AZN,"Binəqədi r.,9-cu mikrorayon q.",40.3863886681378,Bakı,49.80817391355895,3105389,18 Yanvar 2023 
+340,Yeni tikili,10 / 16,67 m²,2,yoxdur,,,136000,AZN,"Elmlər Akademiyası m.,Hüseyn Cavid parkı ,Bakı Dövlət Universiteti ,Yasamal r.",40.36822884896801,Bakı,49.813362210989,3105406,17 Yanvar 2023 
+341,Yeni tikili,9 / 17,140 m²,3,var,var,var,220000,AZN,"ASAN Xidmət №1 ,Tibb Universiteti ,Nəsimi bazarı ,Nəsimi r.",40.39816149998397,Bakı,49.84086155891422,3105410,09 Dekabr 2022 
+342,Yeni tikili,15 / 18,205 m²,4,var,,,295000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.42501388353632,Bakı,49.91049531402914,3105427,18 Yanvar 2023 
+343,Yeni tikili,17 / 22,150 m²,4,var,,,300000,AZN,Yasamal r.,40.41285757277671,Bakı,49.8009571469297,3105440,17 Dekabr 2022 
+344,Köhnə tikili,5 / 5,48.6 m²,2,var,,,70000,AZN,Sumqayıt,40.57688687395197,Sumqayıt,49.67553013971678,3105474,17 Dekabr 2022 
+345,Yeni tikili,7 / 18,90 m²,3,var,var,var,150000,AZN,"20 Yanvar m.,Yasamal r.,Yasamal q.",40.40237093035956,Bakı,49.80685034714361,3105535,17 Dekabr 2022 
+346,Köhnə tikili,2 / 5,86 m²,3,var,var,var,135000,AZN,"Qara Qarayev m.,Nizami r.",40.41626206467005,Bakı,49.93058360981684,3105538,17 Dekabr 2022 
+347,Yeni tikili,11 / 18,80 m²,2,yoxdur,,,68000,AZN,"Yasamal r.,Yeni Yasamal q.",40.394,Bakı,49.795,3105697,17 Dekabr 2022 
+348,Yeni tikili,16 / 17,104 m²,2,var,,,195000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.3843596,Bakı,49.87381000000005,3105755,18 Dekabr 2022 
+349,Yeni tikili,5 / 16,87.9 m²,2,yoxdur,,,160000,AZN,"Nəriman Nərimanov m.,Nərimanov r.",40.40331289316186,Bakı,49.87926542758942,3105759,18 Dekabr 2022 
+350,Yeni tikili,15 / 16,136 m²,4,,,,245000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nərimanov r.",40.40169734336856,Bakı,49.83257768117534,3105778,18 Dekabr 2022 
+351,Köhnə tikili,8 / 8,60 m²,2,var,,,119000,AZN,"Sovetski ,Nərimanov heykəli ,Axundov bağı ,Yasamal r.",40.37849802028471,Bakı,49.87448841333393,3105856,19 Dekabr 2022 
+352,Yeni tikili,10 / 16,95 m²,3,yoxdur,,,145000,AZN,"Ukrayna dairəsi ,Xətai r.,Əhmədli q.",40.38873191798482,Bakı,49.95395421981815,3105903,18 Dekabr 2022 
+353,Yeni tikili,10 / 19,124.1 m²,3,var,var,yoxdur,187000,AZN,"Yasamal r.,Yasamal q.",40.40952590477563,Bakı,49.84445571899418,3105936,04 Mart 2023 
+354,Yeni tikili,9 / 16,82 m²,2,var,var,var,125000,AZN,"Xalqlar Dostluğu m.,Nizami r.",40.40210780478213,Bakı,49.85758781433109,3105948,18 Dekabr 2022 
+355,Köhnə tikili,5 / 5,72.6 m²,3,var,,,48000,AZN,Gəncə,40.6848132,Gəncə,46.35917659999996,3106036,18 Dekabr 2022 
+356,Köhnə tikili,6 / 6,75 m²,3,var,,,170000,AZN,"Sovetski ,Nərimanov heykəli ,Hüseyn Cavid parkı ,Texniki Universiteti ,Yasamal r.",40.37620916175648,Bakı,49.81580107043555,3106071,18 Dekabr 2022 
+357,Yeni tikili,12 / 18,142 m²,3,var,var,var,520000,AZN,"ASAN Xidmət №2 ,Şah İsmayıl Xətai m.,Xətai r.",40.37926015089273,Bakı,49.87554788589478,3106151,01 Dekabr 2022 
+358,Köhnə tikili,3 / 5,40 m²,2,var,,,92000,AZN,"Xalqlar Dostluğu m.,Neftçilər m.,Nizami r.",40.37104456957248,Bakı,49.95549254560103,3106209,22 Dekabr 2022 
+359,Yeni tikili,13 / 14,41 m²,1,var,var,var,62500,AZN,Xırdalan,40.38499730777751,Xırdalan,49.83810424804688,3106251,18 Dekabr 2022 
+360,Yeni tikili,12 / 30,230 m²,4,var,,,1700000,AZN,"Tibb Universiteti ,Nəsimi r.",40.36942330420567,Bakı,49.82101321220402,3106253,15 Fevral 2023 
+361,Yeni tikili,5 / 14,130 m²,4,var,var,var,140000,AZN,"Neftçilər m.,Nizami r.",40.41016954678138,Bakı,49.94742390683219,3106267,08 Fevral 2023 
+362,Yeni tikili,5 / 14,241 m²,4,var,,,560000,AZN,"Neft Akademiyası ,Bakı Musiqi Akademiyası ,28 May m.,Milli Konservatoriya ,Bakı Slavyan Universiteti ,Azərbaycan Dillər Universiteti ,Nəsimi r.",40.38034660855652,Bakı,49.8451353337881,3106277,18 Dekabr 2022 
+363,Köhnə tikili,2 / 5,80 m²,3,var,var,var,130000,AZN,"Memar Əcəmi m.,Nəsimi r.,2-ci mikrorayon q.",40.38274990424748,Bakı,49.8084390163422,3106292,17 Yanvar 2023 
+364,Yeni tikili,12 / 16,210 m²,5,var,,,326000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nərimanov r.",40.37533198376934,Bakı,49.81793688867354,3106295,28 Dekabr 2022 
+365,Yeni tikili,6 / 17,77 m²,2,var,var,var,155000,AZN,"Şərq bazarı ,Təhsil Nazirliyi ,Nərimanov r.",40.40328327684168,Bakı,49.85078707337379,3106307,17 Dekabr 2022 
+366,Yeni tikili,5 / 19,155 m²,3,var,var,var,319000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nəsimi r.",40.40606433283491,Bakı,49.86231650326251,3106337,13 Mart 2023 
+367,Yeni tikili,11 / 22,151 m²,3,var,var,var,350000,AZN,Yasamal r.,40.39467662878146,Bakı,49.81719298125771,3106439,18 Dekabr 2022 
+368,Yeni tikili,13 / 19,129 m²,4,var,,,220000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.40554735588255,Bakı,49.87506508827209,3106457,18 Dekabr 2022 
+369,Yeni tikili,8 / 20,100 m²,2,var,var,var,177000,AZN,"Bakı Asiya Universiteti ,8 Noyabr m.,Nəsimi r.",40.37520939853896,Bakı,49.84099855135474,3106503,18 Dekabr 2022 
+370,Köhnə tikili,2 / 9,110 m²,3,var,,,192000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,TQDK ,Nəsimi r.",40.37024250177031,Bakı,49.97394200996779,3106555,25 Yanvar 2023 
+371,Yeni tikili,14 / 17,101 m²,3,var,,,149000,AZN,"Həzi Aslanov m.,Xətai r.",40.37024250177031,Bakı,49.97394200996779,3106561,27 Noyabr 2022 
+372,Yeni tikili,15 / 20,205 m²,4,var,var,yoxdur,410000,AZN,"İncəsənət və Mədəniyyət Un. ,Dövlət Statistika Komitəsi ,Nizami m.,Yasamal r.",40.37620916175648,Bakı,49.81580107043555,3106568,16 Mart 2023 
+373,Yeni tikili,10 / 17,62 m²,2,var,,,115000,AZN,"Qara Qarayev m.,Nizami r.",40.39352858614141,Bakı,49.8204231262207,3106631,01 Dekabr 2022 
+374,Yeni tikili,7 / 16,88 m²,2,yoxdur,,,130000,AZN,"Qara Qarayev m.,Nizami r.",40.37104456957248,Bakı,49.95549254560103,3106660,23 Yanvar 2023 
+375,Yeni tikili,5 / 17,65 m²,2,var,,,122000,AZN,Binəqədi r.,40.4053327515815,Bakı,49.81380344106,3106688,18 Dekabr 2022 
+376,Yeni tikili,4 / 17,155 m²,3,var,,,308000,AZN,"Nəsimi bazarı ,Koala parkı ,Nəsimi r.",40.39816149998397,Bakı,49.84086155891422,3106694,19 Mart 2023 
+377,Yeni tikili,4 / 12,156 m²,4,var,,,290000,AZN,"Dövlət Statistika Komitəsi ,İzmir parkı ,M.Hüseynzadə parkı ,Nizami m.,Yasamal r.",40.39205366748811,Bakı,49.84065234661102,3106699,18 Dekabr 2022 
+378,Yeni tikili,17 / 18,115 m²,3,var,,,200000,AZN,"ASAN Xidmət №3 ,Yasamal bazarı ,Yasamal r.",40.38781667161964,Bakı,49.85220193862915,3106713,18 Dekabr 2022 
+379,Yeni tikili,16 / 17,157.5 m²,3,var,var,yoxdur,267900,AZN,"Şərq bazarı ,Nərimanov r.",40.4053327515815,Bakı,49.81380344106,3106775,18 Dekabr 2022 
+380,Köhnə tikili,5 / 8,43 m²,2,var,var,var,69000,AZN,Nərimanov r.,40.41289099586906,Bakı,49.86717288447016,3106797,13 Dekabr 2022 
+381,Yeni tikili,3 / 11,60 m²,3,var,var,var,95000,AZN,"Yasamal r.,Yeni Yasamal q.",40.37224994422943,Bakı,49.83342432222912,3106814,19 Noyabr 2022 
+382,Yeni tikili,6 / 17,185 m²,4,var,,,435000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.38264366149726,Bakı,49.87209320068359,3106826,04 Mart 2023 
+383,Yeni tikili,4 / 17,50 m²,2,yoxdur,,,78000,AZN,"Xətai r.,Əhmədli q.",40.3706289775018,Bakı,49.94195938110352,3106828,18 Dekabr 2022 
+384,Köhnə tikili,7 / 9,80 m²,2,var,,,145000,AZN,"Şəhidlər xiyabanı ,Dağüstü parkı ,Səbail r.",40.37512451826901,Bakı,49.81611013412476,3106956,09 Fevral 2023 
+385,Köhnə tikili,3 / 5,40 m²,2,var,,,43000,AZN,"Suraxanı r.,Massiv A q.",40.39989258617802,Bakı,49.83979431395813,3106957,18 Noyabr 2022 
+386,Köhnə tikili,1 / 5,55 m²,2,,,,100000,AZN,"Bayıl parkı ,Səbail r.,Bayıl q.",40.3497833,Bakı,49.83144970000001,3107038,18 Dekabr 2022 
+387,Yeni tikili,6 / 16,190 m²,3,var,,,430000,AZN,"Neftçi bazası ,ASAN Xidmət №1 ,Nəsimi r.",40.39584916837152,Bakı,49.85226631164551,3107064,12 Mart 2023 
+388,Yeni tikili,3 / 16,87.4 m²,2,yoxdur,,,174800,AZN,"Tibb Universiteti ,Nəsimi r.",40.39232579999999,Bakı,49.82880550000004,3107125,18 Dekabr 2022 
+389,Yeni tikili,5 / 16,109 m²,3,yoxdur,,,240000,AZN,"Şərq bazarı ,Nərimanov r.",40.38618598724853,Bakı,49.8532143713911,3107126,18 Dekabr 2022 
+390,Yeni tikili,2 / 16,82 m²,2,var,,,155000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.40481309592228,Bakı,49.86986696720127,3107138,29 Noyabr 2022 
+391,Yeni tikili,14 / 17,280 m²,4,var,,,479000,AZN,"Tibb Universiteti ,Nəsimi r.",40.39816149998397,Bakı,49.84086155891422,3107139,27 Yanvar 2023 
+392,Köhnə tikili,4 / 5,65 m²,3,var,,,135000,AZN,"Dövlət Statistika Komitəsi ,İzmir parkı ,İncəsənət və Mədəniyyət Un. ,Yasamal r.",40.37738239264175,Bakı,49.82495069503784,3107150,20 Mart 2023 
+393,Yeni tikili,3 / 16,98 m²,2,yoxdur,,,147000,AZN,"Bakı Asiya Universiteti ,8 Noyabr m.,Nəsimi r.",40.37472401862458,Bakı,49.83415603637699,3107184,18 Fevral 2023 
+394,Yeni tikili,9 / 12,95 m²,2,var,,,135000,AZN,"Xətai r.,Həzi Aslanov q.",40.39045008382347,Bakı,49.830508675731,3107265,24 Noyabr 2022 
+395,Yeni tikili,10 / 17,157 m²,3,var,,,262000,AZN,"Şərq bazarı ,Nərimanov r.",40.38264366149726,Bakı,49.87209320068359,3107272,18 Dekabr 2022 
+396,Yeni tikili,13 / 14,90 m²,3,var,var,var,122000,AZN,Binəqədi r.,40.48359622172198,Bakı,49.75670444802941,3107277,18 Dekabr 2022 
+397,Yeni tikili,3 / 13,105 m²,2,var,var,var,160000,AZN,"Zərifə Əliyeva adına park ,Nəsimi m.,Nəsimi r.",40.38781667161964,Bakı,49.85220193862915,3107390,18 Dekabr 2022 
+398,Yeni tikili,2 / 8,73 m²,3,yoxdur,,,87000,AZN,Xırdalan,40.37005679625383,Xırdalan,49.82993423938751,3107417,18 Dekabr 2022 
+399,Yeni tikili,15 / 20,80 m²,2,var,var,var,125000,AZN,"Yasamal r.,Yeni Yasamal q.",40.39380389216755,Bakı,49.79671661376953,3107452,18 Dekabr 2022 
+400,Köhnə tikili,4 / 9,45 m²,2,var,var,var,65000,AZN,"Binəqədi r.,Biləcəri q.",40.38264366149726,Bakı,49.80834245681766,3107591,19 Dekabr 2022 
+401,Yeni tikili,4 / 20,76 m²,2,var,,,145000,AZN,"Həzi Aslanov m.,Xətai r.",40.37304888870192,Bakı,49.95350164822619,3107606,19 Dekabr 2022 
+402,Köhnə tikili,4 / 9,78 m²,3,var,,,122000,AZN,"Neftçilər m.,Nizami r.",40.4053327515815,Bakı,49.81380344106,3107608,19 Noyabr 2022 
+403,Yeni tikili,16 / 18,58 m²,2,yoxdur,var,var,148000,AZN,"Binəqədi r.,8-ci mikrorayon q.",40.41692480838014,Bakı,49.8315891623497,3107622,19 Dekabr 2022 
+404,Yeni tikili,14 / 18,113 m²,3,var,,,274000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.38310132138137,Bakı,49.87192153930664,3107673,18 Yanvar 2023 
+405,Yeni tikili,2 / 16,85 m²,3,var,var,var,135000,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.41627966050126,Bakı,49.81589651776423,3107688,19 Noyabr 2022 
+406,Yeni tikili,4 / 7,97 m²,3,var,,,175000,AZN,Sumqayıt,40.58293128838922,Sumqayıt,49.68619878154075,3107701,19 Dekabr 2022 
+407,Yeni tikili,2 / 6,50 m²,2,var,,,60000,AZN,Xırdalan,40.45335851736592,Xırdalan,49.74039865268877,3107726,19 Dekabr 2022 
+408,Köhnə tikili,8 / 9,100 m²,3,var,,,190000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.42527440160644,Bakı,49.85134363174438,3107727,20 Fevral 2023 
+409,Yeni tikili,8 / 16,47.5 m²,1,yoxdur,,,38000,AZN,Xırdalan,40.46490765863953,Xırdalan,49.72674111679679,3107845,19 Dekabr 2022 
+410,Yeni tikili,15 / 22,67 m²,1,yoxdur,,,115000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.40165844427115,Bakı,49.86887991428379,3107858,18 Yanvar 2023 
+411,Yeni tikili,2 / 15,98 m²,2,var,,,145000,AZN,"Bakı Asiya Universiteti ,8 Noyabr m.,Nəsimi r.",40.37660389427779,Bakı,49.8131650686264,3107859,21 Noyabr 2022 
+412,Köhnə tikili,2 / 4,55 m²,2,var,,,135000,AZN,"Milli Konservatoriya ,Nizami kinoteatrı ,Bakı Musiqi Akademiyası ,Qış parkı ,Malokan bağı ,Neft Akademiyası ,Sahil bağı ,Sahil m.,28 May m.,Səbail r.",40.36942330420567,Bakı,49.82101321220402,3107863,19 Dekabr 2022 
+413,Yeni tikili,19 / 19,120 m²,3,var,,,300000,AZN,"TQDK ,Neftçi bazası ,Nəsimi r.",40.38499730777751,Bakı,49.83810424804688,3107871,19 Dekabr 2022 
+414,Köhnə tikili,8 / 9,90 m²,3,var,,,150000,AZN,"Neftçi bazası ,ASAN Xidmət №1 ,Nəsimi r.",40.40027766320492,Bakı,49.84006762504578,3107918,19 Dekabr 2022 
+415,Yeni tikili,8 / 10,82 m²,3,var,var,var,127000,AZN,"Yasamal r.,Yeni Yasamal q.",40.37520939853896,Bakı,49.84099855135474,3107930,19 Dekabr 2022 
+416,Köhnə tikili,4 / 9,87.4 m²,4,var,,,170000,AZN,Xətai r.,40.39026819642278,Bakı,49.95772004127506,3107968,19 Dekabr 2022 
+417,Yeni tikili,20 / 21,95 m²,3,var,var,var,140000,AZN,Yasamal r.,40.37024250177031,Bakı,49.97394200996779,3107973,24 Mart 2023 
+418,Yeni tikili,16 / 17,145.2 m²,3,yoxdur,,,162000,AZN,"Yasamal r.,Yeni Yasamal q.",40.40055825649505,Bakı,49.84184075426642,3107987,17 Fevral 2023 
+419,Yeni tikili,3 / 19,140 m²,4,var,,,330000,AZN,"Nəriman Nərimanov m.,Nərimanov r.",40.40554735588255,Bakı,49.87506508827209,3108015,19 Dekabr 2022 
+420,Köhnə tikili,3 / 9,65 m²,2,var,var,var,77500,AZN,"Suraxanı r.,Yeni Günəşli q.",40.38816806232006,Bakı,49.83243942260742,3108018,19 Dekabr 2022 
+421,Yeni tikili,2 / 16,63.5 m²,1,yoxdur,,,64000,AZN,"Xalqlar Dostluğu m.,Nizami r.",40.38499730777751,Bakı,49.83810424804688,3108078,19 Dekabr 2022 
+422,Yeni tikili,11 / 17,187 m²,4,var,var,var,390000,AZN,"Təhsil Nazirliyi ,Nərimanov r.",40.39205366748811,Bakı,49.84065234661102,3108102,19 Dekabr 2022 
+423,Yeni tikili,3 / 6,100 m²,4,yoxdur,,,95000,AZN,"Abşeron r.,Masazır q.",40.49167368389818,Bakı,49.7549083915553,3108113,19 Dekabr 2022 
+424,Yeni tikili,3 / 6,55 m²,2,var,,,120000,AZN,"Nizami m.,Beşmərtəbə ,Yasamal r.",40.37917158631298,Bakı,49.82980591935339,3108119,19 Dekabr 2022 
+425,Yeni tikili,4 / 8,125 m²,3,yoxdur,,,210000,AZN,"ASAN Xidmət №1 ,Tibb Universiteti ,Nəsimi r.",40.37024250177031,Bakı,49.97394200996779,3108123,31 Yanvar 2023 
+426,Yeni tikili,17 / 17,93 m²,3,var,,,117000,AZN,"Yasamal r.,Yeni Yasamal q.",40.37620916175648,Bakı,49.81580107043555,3108170,19 Dekabr 2022 
+427,Yeni tikili,6 / 16,100 m²,3,yoxdur,,,165000,AZN,"Binəqədi r.,Xutor q.",40.4128678,Bakı,49.824515700000006,3108196,19 Dekabr 2022 
+428,Yeni tikili,11 / 13,274 m²,4,var,,,850000,AZN,"Zoopark ,Nərimanov r.",40.3923718616307,Bakı,49.85226531684182,3108197,19 Dekabr 2022 
+429,Yeni tikili,2 / 9,85 m²,3,var,,,110000,AZN,Xırdalan,40.45458880237278,Xırdalan,49.73424911499023,3108201,13 Yanvar 2023 
+430,Yeni tikili,9 / 16,110 m²,2,yoxdur,,,95000,AZN,"Yasamal r.,Yeni Yasamal q.",40.394,Bakı,49.795,3108225,19 Dekabr 2022 
+431,Köhnə tikili,10 / 16,90 m²,3,var,,,197000,AZN,"Dövlət Statistika Komitəsi ,İncəsənət və Mədəniyyət Un. ,Nizami m.,Yasamal r.",40.38301578633326,Bakı,49.82287057693156,3108228,19 Dekabr 2022 
+432,Yeni tikili,8 / 16,65 m²,2,var,,,157000,AZN,"Nəriman Nərimanov parkı ,Rəssamlıq Akademiyası ,Nəriman Nərimanov m.,Nərimanov r.",40.40554735588255,Bakı,49.87506508827209,3108231,19 Dekabr 2022 
+433,Yeni tikili,14 / 17,145 m²,3,var,,,245000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.38321546583172,Bakı,49.87179297882086,3108232,19 Dekabr 2022 
+434,Yeni tikili,8 / 20,176 m²,4,var,,,400000,AZN,"Tibb Universiteti ,Nəsimi r.",40.39816149998397,Bakı,49.84086155891422,3108239,25 Yanvar 2023 
+435,Yeni tikili,15 / 16,54 m²,2,var,,,125000,AZN,"Təhsil Nazirliyi ,Nərimanov r.",40.37649764183499,Bakı,49.84163403511051,3108243,29 Noyabr 2022 
+436,Yeni tikili,7 / 16,116.4 m²,3,var,var,var,185000,AZN,"Binəqədi r.,9-cu mikrorayon q.",40.39197603929571,Bakı,49.80684041976929,3108264,19 Dekabr 2022 
+437,Köhnə tikili,5 / 9,117 m²,4,var,,,142000,AZN,"Yasamal r.,Yeni Yasamal q.",40.39637210543769,Bakı,49.79227066040039,3108270,04 Dekabr 2022 
+438,Köhnə tikili,4 / 5,54 m²,2,var,,,145000,AZN,"Texniki Universiteti ,Hüseyn Cavid parkı ,Memarlıq və İnşaat Universiteti ,Space TV ,Elmlər Akademiyası m.,Yasamal r.",40.37009705470749,Bakı,49.81652186769955,3108302,19 Dekabr 2022 
+439,Köhnə tikili,2 / 4,120 m²,3,var,,,153000,AZN,"İqsadiyyat Universiteti ,Axundov bağı ,Dövlət İdarəçilik Akademiyası ,İçəri Şəhər m.,Qubernator parkı ,M.Ə.Sabir parkı ,Prezident parkı ,İçəri Şəhər ,Səbail r.",40.36750644361124,Bakı,49.83119487762451,3108306,19 Dekabr 2022 
+440,Köhnə tikili,3 / 9,80 m²,3,var,,,110000,AZN,"Xətai r.,Əhmədli q.",40.39989258617802,Bakı,49.83979431395813,3108320,22 Dekabr 2022 
+441,Yeni tikili,6 / 13,60 m²,2,var,,,155000,AZN,"İnşaatçılar m.,Yasamal r.",40.37104456957248,Bakı,49.95549254560103,3108328,13 Yanvar 2023 
+442,Yeni tikili,6 / 16,161 m²,4,var,,,300000,AZN,Yasamal r.,40.4000189364242,Bakı,49.7982680549682,3108348,22 Dekabr 2022 
+443,Köhnə tikili,3 / 5,96 m²,4,,,,125000,AZN,"Xəzər r.,Buzovna q.",40.53074824839712,Bakı,50.09727171683301,3108350,19 Dekabr 2022 
+444,Yeni tikili,5 / 16,72 m²,3,var,,,137000,AZN,"Təhsil Nazirliyi ,Nərimanov r.",40.40151989948133,Bakı,49.84751267278616,3108357,19 Noyabr 2022 
+445,Köhnə tikili,3 / 9,100 m²,4,var,,,170000,AZN,"Ayna Sultanova heykəli ,Binəqədi r.,8-ci mikrorayon q.",40.42527440160644,Bakı,49.85134363174438,3108358,23 Yanvar 2023 
+446,Yeni tikili,3 / 7,166.5 m²,4,yoxdur,,,325000,AZN,"Ağ şəhər ,ASAN Xidmət №2 ,Xətai r.,Ağ şəhər q.",40.3813596,Bakı,49.8843435,3108368,23 Fevral 2023 
+447,Köhnə tikili,5 / 5,72 m²,3,var,,,68000,AZN,"Binəqədi r.,Binəqədi q.",40.4764203,Bakı,49.82028760000003,3108374,19 Dekabr 2022 
+448,Yeni tikili,12 / 20,77 m²,3,var,,,132000,AZN,"Həzi Aslanov m.,Xətai r.",40.38855213843042,Bakı,49.87120270729065,3108431,19 Dekabr 2022 
+449,Köhnə tikili,3 / 5,53 m²,2,var,,,89000,AZN,"Elmlər Akademiyası m.,Yasamal r.",40.39061957433251,Bakı,49.84664440155029,3108434,19 Dekabr 2022 
+450,Yeni tikili,4 / 16,132 m²,3,yoxdur,,,249000,AZN,"Neftçilər m.,Nizami r.",40.38499730777751,Bakı,49.83810424804688,3108438,26 Noyabr 2022 
+451,Yeni tikili,14 / 16,116.6 m²,3,var,var,yoxdur,200000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nəsimi r.",40.39870076024754,Bakı,49.83767509460449,3108441,03 Dekabr 2022 
+452,Yeni tikili,16 / 18,58 m²,2,var,,,145000,AZN,Nəsimi r.,40.39414959485713,Bakı,49.7993946075439,3108450,19 Dekabr 2022 
+453,Yeni tikili,4 / 16,118 m²,2,var,,,215000,AZN,"TQDK ,Neftçi bazası ,Nərimanov r.",40.40554735588255,Bakı,49.87506508827209,3108458,19 Dekabr 2022 
+454,Köhnə tikili,3 / 9,106 m²,3,var,,,195000,AZN,"Tibb Universiteti ,Nəsimi r.",40.38613323957885,Bakı,49.82919931411747,3108464,19 Dekabr 2022 
+455,Yeni tikili,10 / 24,312 m²,6,var,,,647000,AZN,"Nərimanov heykəli ,Sovetski ,Space TV ,Texniki Universiteti ,Yasamal r.,Yasamal q.",40.37849802028471,Bakı,49.87448841333393,3108468,19 Dekabr 2022 
+456,Yeni tikili,4 / 7,183 m²,3,var,var,var,615000,AZN,"Şərq bazarı ,Zoopark ,Nərimanov r.",40.38264366149726,Bakı,49.87209320068359,3108475,08 Yanvar 2023 
+457,Yeni tikili,4 / 18,101 m²,2,var,,,140000,AZN,Nəsimi r.,40.4007188626008,Bakı,49.84215974807739,3108476,19 Dekabr 2022 
+458,Yeni tikili,16 / 17,138 m²,4,var,,,310000,AZN,"8 Noyabr m.,Nəsimi r.",40.38499730777751,Bakı,49.83810424804688,3108486,26 Noyabr 2022 
+459,Yeni tikili,5 / 18,162 m²,3,var,,,385000,AZN,"Nizami m.,Beşmərtəbə ,Yasamal r.",40.37830134908896,Bakı,49.8313936465844,3108493,19 Dekabr 2022 
+460,Yeni tikili,6 / 17,182 m²,4,var,,,370000,AZN,"Nəsimi bazarı ,Nəsimi r.",40.38499730777751,Bakı,49.83810424804688,3108495,26 Noyabr 2022 
+461,Yeni tikili,10 / 21,96 m²,2,yoxdur,,,190000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.38613323957885,Bakı,49.82919931411747,3108514,19 Dekabr 2022 
+462,Köhnə tikili,5 / 5,45 m²,2,var,,,105000,AZN,"Dostluq kinoteatrı ,Koala parkı ,Nəsimi bazarı ,Park Zorge ,Nəsimi r.",40.39270174045908,Bakı,49.83329557619629,3108530,04 Dekabr 2022 
+463,Yeni tikili,11 / 17,200 m²,4,var,var,var,410000,AZN,"Nəsimi bazarı ,Nəsimi r.",40.40027766320492,Bakı,49.84006762504578,3108554,19 Fevral 2023 
+464,Yeni tikili,14 / 16,140 m²,3,var,,,299000,AZN,Nərimanov r.,40.40907145349176,Bakı,49.86554713834061,3108576,19 Dekabr 2022 
+465,Yeni tikili,6 / 15,99 m²,3,,,,168000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.3843596,Bakı,49.87381000000005,3108578,19 Dekabr 2022 
+466,Yeni tikili,7 / 12,70 m²,1,yoxdur,,,98000,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.4136237,Bakı,49.81127509999999,3108587,19 Dekabr 2022 
+467,Köhnə tikili,5 / 9,68 m²,3,var,var,var,94900,AZN,"Binəqədi r.,M.Ə.Rəsulzadə q.",40.41913797142315,Bakı,49.92514979797704,3108589,19 Dekabr 2022 
+468,Köhnə tikili,5 / 9,65 m²,3,var,,,130000,AZN,"Yasamal bazarı ,İnşaatçılar m.,Yasamal r.",40.39414959485713,Bakı,49.7993946075439,3108609,26 Fevral 2023 
+469,Yeni tikili,5 / 17,37.5 m²,2,var,var,var,85500,AZN,"Qara Qarayev m.,Nizami r.",40.41946084108001,Bakı,49.92904353075679,3108611,24 Dekabr 2022 
+470,Köhnə tikili,7 / 9,31.9 m²,1,var,var,var,50500,AZN,"Suraxanı r.,Hövsan q.",40.3895335,Bakı,50.07034859999999,3108613,19 Dekabr 2022 
+471,Köhnə tikili,6 / 9,60 m²,2,var,,,106000,AZN,Xətai r.,40.39026819642278,Bakı,49.95772004127506,3108624,16 Yanvar 2023 
+472,Köhnə tikili,1 / 5,100 m²,3,var,var,var,125000,AZN,"Həzi Aslanov m.,Xətai r.,Həzi Aslanov q.",40.36822884896801,Bakı,49.813362210989,3108682,19 Yanvar 2023 
+473,Yeni tikili,3 / 8,109 m²,2,yoxdur,,,189000,AZN,"Tibb Universiteti ,ASAN Xidmət №1 ,Nəsimi r.",40.39801045115652,Bakı,49.82941355501565,3108696,19 Dekabr 2022 
+474,Yeni tikili,15 / 17,140 m²,3,var,,,249000,AZN,"İnşaatçılar m.,Yasamal r.",40.38264366149726,Bakı,49.87209320068359,3108701,19 Dekabr 2022 
+475,Yeni tikili,3 / 17,92 m²,2,var,var,var,180000,AZN,"Nəriman Nərimanov m.,Nərimanov r.",40.38264366149726,Bakı,49.87209320068359,3108715,19 Dekabr 2022 
+476,Yeni tikili,8 / 12,131 m²,3,var,,,340000,AZN,"Təhsil Nazirliyi ,Şərq bazarı ,Nərimanov r.",40.38002022966838,Bakı,49.85552251338959,3108722,09 Mart 2023 
+477,Yeni tikili,5 / 21,67.4 m²,2,yoxdur,,,109500,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,TQDK ,Nərimanov r.",40.39026819642278,Bakı,49.95772004127506,3108723,26 Noyabr 2022 
+478,Köhnə tikili,9 / 9,80 m²,3,var,var,var,124000,AZN,"Əhmədli m.,Xətai r.",40.39989258617802,Bakı,49.83979431395813,3108735,25 Dekabr 2022 
+479,Köhnə tikili,3 / 5,58 m²,2,var,,,155000,AZN,"Elmlər Akademiyası m.,Hüseyn Cavid parkı ,Texniki Universiteti ,Bakı Dövlət Universiteti ,Yasamal r.",40.38264366149726,Bakı,49.87209320068359,3108737,19 Dekabr 2022 
+480,Köhnə tikili,3 / 5,37 m²,1,var,,,95000,AZN,"ASAN Xidmət №3 ,Yasamal bazarı ,Yasamal r.,Yasamal q.",40.39270174045908,Bakı,49.83329557619629,3108740,19 Dekabr 2022 
+481,Köhnə tikili,2 / 2,34 m²,2,var,,,70000,AZN,"Nizami m.,Yasamal r.",40.39270174045908,Bakı,49.83329557619629,3108745,19 Dekabr 2022 
+482,Yeni tikili,4 / 17,130 m²,3,var,,,280000,AZN,"İnşaatçılar m.,Yasamal r.",40.38910132857043,Bakı,49.80273047409673,3108767,19 Dekabr 2022 
+483,Köhnə tikili,4 / 5,35 m²,2,var,,,75000,AZN,"Memar Əcəmi m.,Nəsimi r.,3-cü mikrorayon q.",40.40911615921261,Bakı,49.82097131411889,3108803,19 Dekabr 2022 
+484,Yeni tikili,10 / 18,225 m²,5,var,,,365000,AZN,"Ayna Sultanova heykəli ,Binəqədi r.,8-ci mikrorayon q.",40.42527440160644,Bakı,49.85134363174438,3108818,18 Mart 2023 
+485,Köhnə tikili,5 / 9,80 m²,3,var,,,126000,AZN,"Neftçilər m.,Nizami r.,8-ci kilometr q.",40.38873191798482,Bakı,49.95395421981815,3108821,09 Dekabr 2022 
+486,Köhnə tikili,2 / 9,59 m²,3,var,,,120000,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.37620916175648,Bakı,49.81580107043555,3108824,24 Mart 2023 
+487,Yeni tikili,8 / 17,160 m²,3,var,,,650000,AZN,"Axundov bağı ,İqsadiyyat Universiteti ,Dövlət İdarəçilik Akademiyası ,İçəri Şəhər m.,Prezident parkı ,Qubernator parkı ,M.Ə.Sabir parkı ,Nərimanov heykəli ,Sovetski ,Səbail r.",40.36807518100677,Bakı,49.82980154738145,3108830,18 Yanvar 2023 
+488,Yeni tikili,8 / 18,147 m²,3,var,var,var,235000,AZN,"Zərifə Əliyeva adına park ,Binəqədi r.,9-cu mikrorayon q.",40.42345630778638,Bakı,49.81759381350507,3108842,19 Dekabr 2022 
+489,Yeni tikili,8 / 17,170 m²,4,var,,,240000,AZN,Nəsimi r.,40.41697016875816,Bakı,49.82891947940691,3108845,19 Dekabr 2022 
+490,Yeni tikili,5 / 15,49 m²,2,var,,,55000,AZN,Xırdalan,40.45511190000001,Xırdalan,49.74459389999993,3108854,19 Dekabr 2022 
+491,Köhnə tikili,2 / 9,85 m²,3,var,,,155000,AZN,"Xalqlar Dostluğu m.,Xətai r.",40.38930339224178,Bakı,49.85948536585312,3108870,19 Dekabr 2022 
+492,Yeni tikili,2 / 4,125 m²,4,yoxdur,,,130000,AZN,"Binəqədi r.,9-cu mikrorayon q.",40.42675743759955,Bakı,49.81508753018738,3108871,19 Dekabr 2022 
+493,Köhnə tikili,4 / 5,50.3 m²,2,var,,,89000,AZN,"Elmlər Akademiyası m.,Yasamal r.",40.37620916175648,Bakı,49.81580107043555,3108872,19 Dekabr 2022 
+494,Yeni tikili,8 / 17,118.5 m²,3,yoxdur,,,280000,AZN,"Sirk ,Qış parkı ,Azərbaycan Dillər Universiteti ,Zabitlər parkı ,Nəsimi r.",40.39414959485713,Bakı,49.7993946075439,3108874,19 Dekabr 2022 
+495,Yeni tikili,6 / 16,78 m²,2,yoxdur,,,188000,AZN,"Sevil Qazıyeva parkı ,Rusiya səfirliyi ,Zabitlər parkı ,M.Hüseynzadə parkı ,Nəsimi r.",40.39989258617802,Bakı,49.83979431395813,3108907,20 Dekabr 2022 
+496,Köhnə tikili,3 / 9,80 m²,3,var,,,105000,AZN,"Neapol dairəsi ,Xətai r.,Əhmədli q.",40.38930339224178,Bakı,49.85948536585312,3108908,19 Dekabr 2022 
+497,Köhnə tikili,6 / 9,70 m²,2,var,var,var,175000,AZN,Yasamal r.,40.37376939548345,Bakı,49.80232992913761,3108911,19 Dekabr 2022 
+498,Yeni tikili,4 / 12,156 m²,4,var,,,290000,AZN,Yasamal r.,40.37838401928007,Bakı,49.793396390315,3108953,19 Dekabr 2022 
+499,Yeni tikili,7 / 10,135 m²,3,var,,,238000,AZN,"İnşaatçılar m.,Yasamal r.",40.38613323957885,Bakı,49.82919931411747,3108960,19 Dekabr 2022 
+500,Köhnə tikili,4 / 5,90 m²,3,var,,,157000,AZN,"28 May m.,Bakı Slavyan Universiteti ,Nərimanov r.",40.36822884896801,Bakı,49.813362210989,3108968,19 Dekabr 2022 
+501,Yeni tikili,14 / 18,65 m²,2,var,var,var,133000,AZN,"Zərifə Əliyeva adına park ,Nəsimi m.,Nəsimi r.",40.37024250177031,Bakı,49.97394200996779,3108971,09 Fevral 2023 
+502,Köhnə tikili,4 / 9,60 m²,2,var,var,var,136000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.39205366748811,Bakı,49.84065234661102,3108984,19 Dekabr 2022 
+503,Yeni tikili,3 / 4,69 m²,2,var,,,68000,AZN,"Abşeron r.,Masazır q.",40.48997767490987,Bakı,49.75948333740234,3108989,19 Dekabr 2022 
+504,Yeni tikili,4 / 17,200 m²,4,var,var,var,450000,AZN,"Azərbaycan turizm institutu ,Respublika stadionu ,Gənclik m.,Nərimanov r.",40.40165027405231,Bakı,49.86080646514893,3108997,19 Dekabr 2022 
+505,Yeni tikili,8 / 12,65 m²,2,var,var,var,105000,AZN,Yasamal r.,40.39989258617802,Bakı,49.83979431395813,3109001,09 Dekabr 2022 
+506,Yeni tikili,4 / 7,225 m²,5,yoxdur,,,433000,AZN,"Ağ şəhər ,Xətai r.",40.38816806232006,Bakı,49.83243942260742,3109019,25 Fevral 2023 
+507,Yeni tikili,8 / 16,95 m²,3,var,var,var,218000,AZN,"Elmlər Akademiyası m.,Hüseyn Cavid parkı ,Bakı Dövlət Universiteti ,Yasamal r.",40.37496922277105,Bakı,49.81438279151917,3109038,19 Dekabr 2022 
+508,Köhnə tikili,6 / 9,60 m²,2,var,,,106000,AZN,"Xətai r.,Həzi Aslanov q.",40.3807186,Bakı,49.92525120000005,3109072,19 Dekabr 2022 
+509,Köhnə tikili,4 / 9,60 m²,2,var,var,var,135900,AZN,"Binəqədi r.,8-ci mikrorayon q.",40.39989258617802,Bakı,49.83979431395813,3109074,08 Fevral 2023 
+510,Yeni tikili,5 / 17,123 m²,3,yoxdur,,,275000,AZN,"Koala parkı ,Dostluq kinoteatrı ,Zoopark ,Nəsimi bazarı ,Nəsimi r.",40.39163197322141,Bakı,49.84346889308539,3109095,19 Dekabr 2022 
+511,Yeni tikili,15 / 16,75 m²,2,var,var,var,190000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.38245549144325,Bakı,49.87010823756684,3109096,19 Dekabr 2022 
+512,Yeni tikili,11 / 16,110 m²,3,,,,160000,AZN,"Neftçilər m.,Nizami r.",40.39989258617802,Bakı,49.83979431395813,3109099,09 Dekabr 2022 
+513,Köhnə tikili,2 / 5,105 m²,4,var,,,168999,AZN,"Nəriman Nərimanov parkı ,Nəriman Nərimanov m.,Nərimanov r.",40.39352858614141,Bakı,49.8204231262207,3109107,15 Yanvar 2023 
+514,Yeni tikili,9 / 12,85 m²,3,var,var,var,157000,AZN,"Yasamal r.,Yeni Yasamal q.",40.394,Bakı,49.795,3109168,19 Dekabr 2022 
+515,Yeni tikili,10 / 17,130 m²,3,var,,,280000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,Nəsimi r.,Kubinka q.",40.42527440160644,Bakı,49.85134363174438,3109192,19 Dekabr 2022 
+516,Yeni tikili,3 / 16,90 m²,4,yoxdur,,,88000,AZN,Xırdalan,40.453013593986,Xırdalan,49.74084538455372,3109204,19 Dekabr 2022 
+517,Yeni tikili,14 / 15,81 m²,3,yoxdur,,,97200,AZN,Xırdalan,40.45338500990412,Xırdalan,49.73774533016684,3109227,19 Dekabr 2022 
+518,Yeni tikili,5 / 6,115 m²,3,var,var,var,218000,AZN,"Nəsimi m.,Binəqədi r.,6-cı mikrorayon q.",40.38264366149726,Bakı,49.80834245681766,3109231,19 Yanvar 2023 
+519,Köhnə tikili,4 / 5,42 m²,1,var,,,152000,AZN,"Şəlalə parkı ,Prezident parkı ,Dağüstü parkı ,Qubernator parkı ,Şəhidlər xiyabanı ,İçəri Şəhər m.,Səbail r.",40.36207067832817,Bakı,49.82805746197247,3109242,19 Dekabr 2022 
+520,Köhnə tikili,3 / 5,50 m²,2,var,var,var,92000,AZN,"Neftçilər m.,Nizami r.,8-ci kilometr q.",40.37005679625383,Bakı,49.82993423938751,3109247,19 Dekabr 2022 
+521,Köhnə tikili,3 / 5,31 m²,1,var,,,89000,AZN,"Elmlər Akademiyası m.,Yasamal r.",40.37767626407818,Bakı,49.81060543976446,3109293,19 Dekabr 2022 
+522,Yeni tikili,10 / 11,45 m²,2,var,var,var,48500,AZN,Abşeron r.,40.484,Bakı,49.757,3109298,19 Dekabr 2022 
+523,Yeni tikili,8 / 11,85 m²,3,var,var,var,136990,AZN,"Yasamal r.,Yeni Yasamal q.",40.39040315960018,Bakı,49.79419914034428,3109330,20 Noyabr 2022 
+524,Köhnə tikili,6 / 9,115 m²,4,var,var,var,195000,AZN,"İnşaatçılar m.,Yasamal r.",40.37620916175648,Bakı,49.81580107043555,3109332,20 Dekabr 2022 
+525,Köhnə tikili,2 / 9,80 m²,3,var,var,var,185000,AZN,"Memar Əcəmi m.,Nəsimi r.,3-cü mikrorayon q.",40.37620916175648,Bakı,49.81580107043555,3109343,29 Yanvar 2023 
+526,Köhnə tikili,4 / 5,45 m²,2,var,,,95000,AZN,"Neftçilər m.,Nizami r.,8-ci kilometr q.",40.4107382,Bakı,49.9384708,3109344,23 Noyabr 2022 
+527,Yeni tikili,15 / 22,61.6 m²,1,yoxdur,,,90000,AZN,"Zərifə Əliyeva adına park ,Nəsimi m.,Binəqədi r.,9-cu mikrorayon q.",40.42275325179861,Bakı,49.81820516158267,3109353,12 Dekabr 2022 
+528,Yeni tikili,3 / 16,123 m²,4,yoxdur,,,265000,AZN,"Qara Qarayev m.,Nizami r.",40.41932422288878,Bakı,49.92522239685059,3109364,25 Dekabr 2022 
+529,Yeni tikili,15 / 19,54 m²,2,var,,,85000,AZN,"Həzi Aslanov m.,Xətai r.",40.41932422288878,Bakı,49.92522239685059,3109365,28 Dekabr 2022 
+530,Yeni tikili,2 / 18,65 m²,3,var,var,var,74000,AZN,Abşeron r.,40.45511190000001,Xırdalan,49.74459389999993,3109369,20 Dekabr 2022 
+531,Yeni tikili,2 / 17,146 m²,3,var,var,var,270000,AZN,"Binəqədi r.,9-cu mikrorayon q.",40.42793349999999,Bakı,49.81359980000002,3109374,20 Dekabr 2022 
+532,Köhnə tikili,8 / 9,60 m²,2,var,var,var,85000,AZN,"Xətai r.,Əhmədli q.",40.35909429703364,Bakı,49.96382847789415,3109435,20 Dekabr 2022 
+533,Yeni tikili,2 / 16,85 m²,3,var,,,135000,AZN,"Memar Əcəmi m.,Nəsimi r.",40.42463128324992,Bakı,49.82827342647775,3109446,20 Dekabr 2022 
+534,Yeni tikili,4 / 18,148 m²,4,var,,,195000,AZN,Binəqədi r.,40.42463128324992,Bakı,49.82827342647775,3109450,20 Dekabr 2022 
+535,Yeni tikili,3 / 19,120 m²,2,yoxdur,,,115000,AZN,"Nizami r.,8-ci kilometr q.",40.40685802004411,Bakı,49.95953716587897,3109453,02 Mart 2023 
+536,Köhnə tikili,4 / 9,60 m²,2,var,var,var,136000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.4209144,Bakı,49.842779500000006,3109458,20 Dekabr 2022 
+537,Yeni tikili,12 / 16,252 m²,5,var,var,var,510000,AZN,"Bakı Slavyan Universiteti ,Azərbaycan Dillər Universiteti ,28 May m.,Nəsimi r.",40.38588844987598,Bakı,49.84702110847259,3109460,20 Dekabr 2022 
+538,Köhnə tikili,1 / 5,40 m²,1,var,,,47000,AZN,"Neftçilər m.,Nizami r.",40.39816149998397,Bakı,49.84086155891422,3109476,03 Dekabr 2022 
+539,Köhnə tikili,1 / 5,50 m²,2,var,,,80000,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.40761426997893,Bakı,49.80840682983398,3109483,04 Fevral 2023 
+540,Köhnə tikili,4 / 9,50 m²,2,var,,,65000,AZN,"Nəriman Nərimanov m.,Nərimanov r.",40.40210780478213,Bakı,49.85758781433109,3109486,07 Yanvar 2023 
+541,Yeni tikili,11 / 16,106 m²,2,yoxdur,,,207000,AZN,"Şah İsmayıl Xətai m.,Xətai r.",40.37024250177031,Bakı,49.97394200996779,3109499,20 Dekabr 2022 
+542,Yeni tikili,3 / 19,64 m²,2,yoxdur,,,115000,AZN,"Xətai r.,Həzi Aslanov q.",40.38264366149726,Bakı,49.87209320068359,3109515,24 Mart 2023 
+543,Yeni tikili,10 / 19,96 m²,3,,,,155000,AZN,"Xətai r.,Əhmədli q.",40.39298300258589,Bakı,49.95403544813546,3109518,10 Yanvar 2023 
+544,Köhnə tikili,5 / 5,40 m²,1,var,,,96900,AZN,"Beşmərtəbə ,Nizami m.,Nəsimi r.",40.37024250177031,Bakı,49.97394200996779,3109537,26 Dekabr 2022 
+545,Yeni tikili,10 / 18,100 m²,3,var,var,var,170000,AZN,"İnşaatçılar m.,Yasamal r.",40.39181261122973,Bakı,49.80257034301758,3109556,18 Yanvar 2023 
+546,Yeni tikili,3 / 16,127 m²,3,var,,,162000,AZN,"Yasamal r.,Yeni Yasamal q.",40.38499730777751,Bakı,49.83810424804688,3109564,20 Dekabr 2022 
+547,Köhnə tikili,9 / 9,110 m²,4,var,var,var,99900,AZN,"Suraxanı r.,Qaraçuxur q.",40.38816806232006,Bakı,49.83243942260742,3109576,20 Dekabr 2022 
+548,Yeni tikili,10 / 19,88.3 m²,3,yoxdur,,,134000,AZN,"Tibb Universiteti ,İdman kompleksi ,Nəsimi r.,Kubinka q.",40.4053327515815,Bakı,49.81380344106,3109584,20 Dekabr 2022 
+549,Köhnə tikili,1 / 9,60 m²,3,var,,,83000,AZN,"Xətai r.,Əhmədli q.",40.36971363410331,Bakı,49.96193722489433,3109600,20 Dekabr 2022 
+550,Yeni tikili,13 / 17,140 m²,4,var,,,227000,AZN,"Neftçilər m.,Nizami r.,8-ci kilometr q.",40.4107382,Bakı,49.9384708,3109604,20 Dekabr 2022 
+551,Köhnə tikili,5 / 5,42 m²,2,var,,,98000,AZN,"Beşmərtəbə ,Nizami m.,Yasamal r.",40.39989258617802,Bakı,49.83979431395813,3109608,07 Dekabr 2022 
+552,Yeni tikili,9 / 18,128 m²,3,var,,,217000,AZN,"ASAN Xidmət №2 ,Şah İsmayıl Xətai m.,Xətai r.,Ağ şəhər q.",40.3789116324492,Bakı,49.87515961633299,3109613,20 Dekabr 2022 
+553,Köhnə tikili,5 / 5,59 m²,3,var,,,120000,AZN,"Nəsimi m.,Zərifə Əliyeva adına park ,Binəqədi r.,6-cı mikrorayon q.",40.37005679625383,Bakı,49.82993423938751,3109628,20 Dekabr 2022 
+554,Köhnə tikili,2 / 5,110 m²,2,var,,,120000,AZN,"Binəqədi r.,6-cı mikrorayon q.",40.42501388353632,Bakı,49.91049531402914,3109659,20 Dekabr 2022 
+555,Köhnə tikili,5 / 9,85 m²,3,var,var,var,179500,AZN,"Ayna Sultanova heykəli ,Nərimanov r.",40.39816149998397,Bakı,49.84086155891422,3109664,17 Yanvar 2023 
+556,Köhnə tikili,7 / 9,120 m²,5,var,var,var,180000,AZN,"Nəriman Nərimanov m.,Nəriman Nərimanov parkı ,Nərimanov r.",40.4053327515815,Bakı,49.81380344106,3109675,20 Dekabr 2022 
+557,Köhnə tikili,2 / 9,120 m²,4,,,,130000,AZN,"Neftçilər m.,Nizami r.,8-ci kilometr q.",40.40676986097269,Bakı,49.93827250774506,3109710,22 Noyabr 2022 
+558,Yeni tikili,20 / 20,125 m²,3,var,,,147000,AZN,"Xətai r.,Əhmədli q.",40.3679082827185,Bakı,49.96067591546736,3109712,20 Dekabr 2022 
+559,Yeni tikili,8 / 16,72 m²,2,var,,,132000,AZN,"Bakı Dövlət Universiteti ,Yasamal r.",40.42501388353632,Bakı,49.91049531402914,3109723,19 Yanvar 2023 
+560,Yeni tikili,2 / 10,125 m²,3,var,,,240000,AZN,"Elmlər Akademiyası m.,Hüseyn Cavid parkı ,Yasamal r.",40.37537890843003,Bakı,49.81742121564174,3109726,20 Dekabr 2022 
+561,Yeni tikili,4 / 14,70 m²,3,yoxdur,,,133000,AZN,"8 Noyabr m.,Memar Əcəmi m.,Nəsimi r.,3-cü mikrorayon q.",40.37005679625383,Bakı,49.82993423938751,3109739,20 Dekabr 2022 
+562,Yeni tikili,14 / 16,94 m²,2,yoxdur,,,75200,AZN,"Yasamal r.,Yeni Yasamal q.",40.38973004035488,Bakı,49.79129230966025,3109745,23 Dekabr 2022 
+563,Köhnə tikili,3 / 5,50 m²,2,,,,95000,AZN,"Binəqədi r.,7-ci mikrorayon q.",40.4301447,Bakı,49.85311720000004,3109802,20 Dekabr 2022 
+564,Yeni tikili,1 / 16,75 m²,2,var,,,75000,AZN,"Xətai r.,Həzi Aslanov q.",40.38873191798482,Bakı,49.95395421981815,3109804,20 Dekabr 2022 
+565,Yeni tikili,3 / 14,94 m²,2,var,,,120000,AZN,Sumqayıt,40.589694,Sumqayıt,49.66787920000002,3109810,20 Dekabr 2022 
+566,Yeni tikili,15 / 17,80 m²,2,var,,,109000,AZN,"Xətai r.,Həzi Aslanov q.",40.37613086332457,Bakı,49.91559462210881,3109844,24 Noyabr 2022 
+567,Yeni tikili,8 / 12,80 m²,3,var,,,137000,AZN,"Yasamal r.,Yeni Yasamal q.",40.39151547183754,Bakı,49.7940612744292,3109853,20 Dekabr 2022 
+568,Yeni tikili,12 / 20,134 m²,3,,,,230000,AZN,"Yasamal bazarı ,Yasamal r.",40.38332740207497,Bakı,49.80825776658412,3109860,26 Yanvar 2023 
+569,Yeni tikili,10 / 12,86 m²,3,var,var,var,145500,AZN,"Azadlıq Prospekti m.,Binəqədi r.",40.39816149998397,Bakı,49.84086155891422,3109872,17 Dekabr 2022 
+570,Yeni tikili,3 / 17,70 m²,2,var,,,125000,AZN,Yasamal r.,40.39620829624452,Bakı,49.8020033410175,3109884,12 Yanvar 2023 
+571,Köhnə tikili,3 / 9,106 m²,3,var,,,195000,AZN,"ASAN Xidmət №1 ,Neftçi bazası ,TQDK ,Nərimanov r.",40.37620916175648,Bakı,49.81580107043555,3109904,20 Dekabr 2022 
+572,Köhnə tikili,6 / 9,80 m²,3,var,var,var,98000,AZN,Xətai r.,40.37613086332457,Bakı,49.91559462210881,3109922,21 Noyabr 2022 
+573,Köhnə tikili,3 / 5,80 m²,3,var,,,155000,AZN,"Azadlıq Prospekti m.,Binəqədi r.,8-ci mikrorayon q.",40.40554735588255,Bakı,49.87506508827209,3109927,20 Dekabr 2022 
+574,Köhnə tikili,2 / 5,60 m²,3,var,,,150000,AZN,"Nəriman Nərimanov parkı ,Rəssamlıq Akademiyası ,Nəriman Nərimanov m.,Nərimanov r.",40.40554735588255,Bakı,49.87506508827209,3109944,20 Dekabr 2022 
+575,Köhnə tikili,2 / 5,50 m²,2,,,,115000,AZN,"Tibb Universiteti ,Nəsimi r.",40.40210780478213,Bakı,49.85758781433109,3109947,20 Dekabr 2022 
+576,Köhnə tikili,5 / 5,43 m²,2,,,,80000,AZN,"8 Noyabr m.,Memar Əcəmi m.,Nəsimi r.,3-cü mikrorayon q.",40.40766190603028,Bakı,49.82045306497481,3109948,20 Dekabr 2022 
+577,Yeni tikili,14 / 18,95 m²,4,var,var,var,160000,AZN,"Zərifə Əliyeva adına park ,Binəqədi r.,9-cu mikrorayon q.",40.42028115716548,Bakı,49.81340365102955,3109949,20 Dekabr 2022 
+578,Köhnə tikili,2 / 9,48 m²,2,var,,,84000,AZN,"Xətai r.,Həzi Aslanov q.",40.37613086332457,Bakı,49.91559462210881,3109955,23 Noyabr 2022 
+579,Yeni tikili,14 / 17,93 m²,3,,,,174000,AZN,"Zərifə Əliyeva adına park ,Binəqədi r.,9-cu mikrorayon q.",40.42127228032076,Bakı,49.81490850448608,3109957,20 Dekabr 2022 
+580,Köhnə tikili,1 / 9,40 m²,2,var,var,var,96000,AZN,"Zərifə Əliyeva adına park ,Nəsimi r.,4-cü mikrorayon q.",40.41896891073368,Bakı,49.81817007064819,3109967,21 Yanvar 2023 
+581,Yeni tikili,10 / 18,160 m²,4,var,,,280000,AZN,"Yasamal bazarı ,İnşaatçılar m.,Yasamal r.,Yasamal q.",40.38274990424748,Bakı,49.8084390163422,3109971,20 Dekabr 2022 
+582,Yeni tikili,6 / 13,55 m²,2,var,var,var,114999,AZN,"Memar Əcəmi m.,Nəsimi r.,4-cü mikrorayon q.",40.38816806232006,Bakı,49.83243942260742,3109972,20 Dekabr 2022 
+583,Yeni tikili,7 / 11,145 m²,4,var,var,var,233000,AZN,"Nəsimi m.,Binəqədi r.,9-cu mikrorayon q.",40.4290890309592,Bakı,49.82008624783871,3109975,25 Noyabr 2022 
+584,Yeni tikili,15 / 16,107 m²,3,var,var,var,185000,AZN,"20 Yanvar m.,Yasamal r.",40.40452732623254,Bakı,49.80715890451386,3109996,20 Dekabr 2022 
+585,Yeni tikili,8 / 17,108 m²,3,var,var,var,200000,AZN,"Zərifə Əliyeva adına park ,Binəqədi r.,9-cu mikrorayon q.",40.42328562211799,Bakı,49.81655538082123,3109997,20 Dekabr 2022 
