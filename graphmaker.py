@@ -1,5 +1,6 @@
 import matplotlib
 import matplotlib.pyplot as plt
+import numpy as np
 
 data = []
 with open('with_disstance.csv', 'r', encoding='utf-8') as f:
@@ -119,6 +120,27 @@ def make_graph(list1: list, list2: list):
         plt.text(list(dict_price.keys())[i], list(dict_price.values())[i], str(int(list(dict_price.values())[i])), ha='center', va='bottom')
     plt.show()
 
+def make_graph_scatter(list1: list, list2: list):
+    dict_price = {}
+    dict_quantity = {}
+    points = {}
+
+    for i in range(150,40000,4):
+        points[i] = 1000000/(i)**0.082-400000
+
+    for i in range(len(list1)):
+        if list1[i] in dict_price:
+            dict_price[list1[i]] += list2[i]
+            dict_quantity[list1[i]] += 1
+        else:
+            dict_price[list1[i]] = list2[i]
+            dict_quantity[list1[i]] = 1
+    for key in dict_price:
+        dict_price[key] /= dict_quantity[key]
+    plt.scatter(dict_price.keys(), dict_price.values(),marker = "^")#, align='edge', width=0.5)
+    plt.plot(points.keys(), points.values(), color='red', linewidth=2)
+    plt.show()
+
 def make_graph_price_area():
     global col_data_area
     # approximate area to 10m^2
@@ -129,6 +151,7 @@ def make_graph_price_distance():
     global col_data_distance
     # approximate area to 10m^2
     col_data_distance = [round(i/100)*100 for i in col_data_distance]
-    make_graph(col_data_distance, col_data_price)
+    #make_graph(col_data_distance, col_data_price)
+    make_graph_scatter(col_data_distance, col_data_price)
 
 make_graph_price_distance()
