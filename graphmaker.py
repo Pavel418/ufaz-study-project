@@ -139,7 +139,7 @@ def make_graph_scatter(list1: list, list2: list):
         dict_price[key] /= dict_quantity[key]
     plt.scatter(dict_price.keys(), dict_price.values(),marker = "^")#, align='edge', width=0.5)
     plt.plot(points.keys(), points.values(), color='red', linewidth=2)
-    plt.show()
+    plt.savefig("metro distance", dpi=300)
 
 def make_graph_price_area():
     global col_data_area
